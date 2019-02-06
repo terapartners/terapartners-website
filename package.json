@@ -8,7 +8,8 @@
     "dev": "next",
     "build": "next build",
     "start": "next start",
-    "export-deploy": "npm run build && next export -o docs/ && touch docs/.nojekyll && echo \"tera.partners\" > docs/CNAME"
+    "export-deploy": "npm run build && next export -o docs/ && touch docs/.nojekyll && echo \"tera.partners\" > docs/CNAME",
+    "lint:fix": "eslint --fix components/ pages/"
   },
   "author": "",
   "license": "ISC",
