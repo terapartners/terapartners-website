@@ -17,7 +17,7 @@ const GlobalStyle = createGlobalStyle`
     -moz-osx-font-smoothing: grayscale;
     font-size: 16px;
     line-height: 40px;
-    font-family: "Raleway";
+    font-family: 'Raleway';
     color: #333;
     background-color: #fff;
     overflow-x: hidden;

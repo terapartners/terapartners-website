@@ -20,6 +20,8 @@ export default class MyDocument extends Document {
         <body>
           <Main oie="oie" />
           <NextScript />
+          <link href="https://fonts.googleapis.com/css?family=Raleway:100,300,400,600,700" rel="stylesheet" />
+          <link href="https://fonts.googleapis.com/css?family=Rajdhani:400,600" rel="stylesheet" />
         </body>
       </html>
     );

@@ -6,7 +6,8 @@ import ScrollAnimation from 'react-animate-on-scroll';
 const Title = styled.span`
   margin-top: 70px;
   font-size: 50px;
-  font-family: raleway-thin;
+  font-family: 'Raleway';
+  font-weight: 100;
   max-width: 960px;
   text-align: center;
 `;
@@ -14,7 +15,8 @@ const Title = styled.span`
 const Subtitle = styled.span`
   margin-top: 70px;
   font-size: 18px;
-  font-family: raleway-semibold;
+  font-family: 'Raleway';
+  font-weight: 600;
   max-width: 960px;
   text-align: center;
 `;
@@ -22,7 +24,8 @@ const Subtitle = styled.span`
 const Text = styled.span`
   margin-top: 40px;
   font-size: 16px;
-  font-family: raleway-light;
+  font-family: 'Raleway';
+  font-weight: 300;
   max-width: 960px;
   text-align: left;
   line-height: 40px;

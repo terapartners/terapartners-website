@@ -29,7 +29,7 @@ const Overlay = styled.div`
 
 const BoxText = styled.span`
   font-size: 30px;
-  font-family: raleway-regular;
+  font-family: 'Raleway';
   color: white;
   display: block;
   margin: 0 auto;
@@ -48,12 +48,14 @@ const BoxText = styled.span`
 `;
 const LearnMore = styled.a`
   font-size: 18px;
-  font-family: raleway-semibold;
+  font-family: 'Raleway';
+  font-weight: 600;
   text-align: left;
   color: white;
   cursor: pointer;
   &:hover {
-    font-family: raleway-bold;
+    font-family: 'Raleway';
+    font-weight: 700;
     text-decoration: underline;
   }
 `;

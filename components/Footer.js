@@ -38,7 +38,8 @@ const Text = styled.span`
   font-family: Rajdhani;
   text-transform: uppercase;
   ${TextWrapper}:hover & {
-    font-family: Rajdhani-semibold;
+    font-family: 'Rajdhani';
+    font-weight: 600;
     cursor: pointer;
   }
 `;

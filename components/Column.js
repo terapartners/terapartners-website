@@ -11,7 +11,8 @@ const ContentWrapper = styled.div`
 const Content = styled.span`
   font-size: 16px;
   line-height: 40px;
-  font-family: raleway-light;
+  font-family: 'Raleway';
+  font-weight: 300;
   text-align: center;
 `;
 
@@ -26,7 +27,7 @@ const ImgWrapper = styled.div`
 
 const BoxText = styled.span`
   font-size: 22px;
-  font-family: raleway-regular;
+  font-family: 'Raleway';
   color: white;
   display: block;
   margin: 0 auto;
@@ -46,12 +47,14 @@ const BoxText = styled.span`
 `;
 const LearnMore = styled.a`
   font-size: 15px;
-  font-family: raleway-semibold;
+  font-family: 'Raleway';
+  font-weight: 600;
   text-align: left;
   color: white;
   cursor: pointer;
   &:hover {
-    font-family: raleway-bold;
+    font-family: 'Raleway';
+    font-family: 700;
     text-decoration: underline;
   }
 `;
