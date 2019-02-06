@@ -9,7 +9,7 @@ const TextWrapper = styled.div`
   color: white;
   font-size: 25px;
   line-height: 40px;
-  top: 700px;
+  top: 85vh;
   left: 156px;
   z-index: 1;
   font-family: Rajdhani;
@@ -28,7 +28,7 @@ function Hero() {
           delay={(el, i) => 2000 + 500 * i}
           key={11 + Date.now()}
         >
-          <span>we focus on the details</span>
+          <span>we focussss2 on the details</span>
           <div style={{ display: '' }} />
           <span>so you can focus on the big picture</span>
         </Anime>
@@ -41,8 +41,8 @@ function Hero() {
       <Parallax
         parallaxHeight="820px"
         width="1800px"
-        marginTop="550px"
-        src="/static/hero1.jpg"
+        marginTop="450px"
+        src="/static/hero.png"
       />
     </div>
   );

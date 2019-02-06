@@ -17,7 +17,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react_animate_on_scroll__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(react_animate_on_scroll__WEBPACK_IMPORTED_MODULE_2__);
 /* harmony import */ var next_link__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! next/link */ "./node_modules/next/link.js");
 /* harmony import */ var next_link__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(next_link__WEBPACK_IMPORTED_MODULE_3__);
-var _jsxFileName = "/projects/terapartners/terapartners-website/components/Box.js";
+var _jsxFileName = "/Users/marianapiazza/projects/terapartners.github.io/components/Box.js";
 
 
 
@@ -132,7 +132,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react_flexbox_grid__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react-flexbox-grid */ "./node_modules/react-flexbox-grid/lib/index.js");
 /* harmony import */ var react_flexbox_grid__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(react_flexbox_grid__WEBPACK_IMPORTED_MODULE_1__);
 /* harmony import */ var _Box__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./Box */ "./components/Box.js");
-var _jsxFileName = "/projects/terapartners/terapartners-website/components/BoxComponent.js";
+var _jsxFileName = "/Users/marianapiazza/projects/terapartners.github.io/components/BoxComponent.js";
  // import styled from 'styled-components';
 
 
@@ -231,7 +231,7 @@ function FirstSection(props) {
       xs: 12,
       md: 12,
       lg: 12 / columns,
-      key: idx,
+      key: srcs[idx],
       __source: {
         fileName: _jsxFileName,
         lineNumber: 76
@@ -270,7 +270,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var styled_components__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! styled-components */ "./node_modules/styled-components/dist/styled-components.browser.esm.js");
 /* harmony import */ var react_animate_on_scroll__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! react-animate-on-scroll */ "./node_modules/react-animate-on-scroll/dist/scrollAnimation.min.js");
 /* harmony import */ var react_animate_on_scroll__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(react_animate_on_scroll__WEBPACK_IMPORTED_MODULE_2__);
-var _jsxFileName = "/projects/terapartners/terapartners-website/components/Column.js";
+var _jsxFileName = "/Users/marianapiazza/projects/terapartners.github.io/components/Column.js";
 
 
 
@@ -411,7 +411,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react_flexbox_grid__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react-flexbox-grid */ "./node_modules/react-flexbox-grid/lib/index.js");
 /* harmony import */ var react_flexbox_grid__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(react_flexbox_grid__WEBPACK_IMPORTED_MODULE_1__);
 /* harmony import */ var _Column__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./Column */ "./components/Column.js");
-var _jsxFileName = "/projects/terapartners/terapartners-website/components/ColumnComponent.js";
+var _jsxFileName = "/Users/marianapiazza/projects/terapartners.github.io/components/ColumnComponent.js";
 
 
 
@@ -453,7 +453,7 @@ function ColumnComponent(props) {
       xs: 12,
       md: 12,
       lg: 12 / columns,
-      key: idx,
+      key: names ? names[idx] : idx,
       __source: {
         fileName: _jsxFileName,
         lineNumber: 14
@@ -491,7 +491,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
 /* harmony import */ var styled_components__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! styled-components */ "./node_modules/styled-components/dist/styled-components.browser.esm.js");
 /* harmony import */ var _Parallax__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./Parallax */ "./components/Parallax.js");
-var _jsxFileName = "/projects/terapartners/terapartners-website/components/Divisor.js";
+var _jsxFileName = "/Users/marianapiazza/projects/terapartners.github.io/components/Divisor.js";
 
 
 
@@ -548,7 +548,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var next_link__WEBPACK_IMPORTED_MODULE_4___default = /*#__PURE__*/__webpack_require__.n(next_link__WEBPACK_IMPORTED_MODULE_4__);
 /* harmony import */ var react_scroll__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! react-scroll */ "./node_modules/react-scroll/modules/index.js");
 /* harmony import */ var react_scroll__WEBPACK_IMPORTED_MODULE_5___default = /*#__PURE__*/__webpack_require__.n(react_scroll__WEBPACK_IMPORTED_MODULE_5__);
-var _jsxFileName = "/projects/terapartners/terapartners-website/components/Footer.js";
+var _jsxFileName = "/Users/marianapiazza/projects/terapartners.github.io/components/Footer.js";
 
 function _typeof(obj) { if (typeof Symbol === "function" && typeof Symbol.iterator === "symbol") { _typeof = function _typeof(obj) { return typeof obj; }; } else { _typeof = function _typeof(obj) { return obj && typeof Symbol === "function" && obj.constructor === Symbol && obj !== Symbol.prototype ? "symbol" : typeof obj; }; } return _typeof(obj); }
 
@@ -599,7 +599,7 @@ var TextWrapper = styled_components__WEBPACK_IMPORTED_MODULE_1__["default"].div.
 var Text = styled_components__WEBPACK_IMPORTED_MODULE_1__["default"].span.withConfig({
   displayName: "Footer__Text",
   componentId: "sc-1v8a5ts-5"
-})(["color:white;font-size:16px;font-family:Rajdhani;text-transform:uppercase;", ":hover &{font-family:'Rajdhani';font-weight:400;cursor:pointer;}"], TextWrapper);
+})(["color:white;font-size:16px;font-family:Rajdhani;text-transform:uppercase;", ":hover &{font-family:'Rajdhani';font-weight:600;cursor:pointer;}"], TextWrapper);
 var Registered = styled_components__WEBPACK_IMPORTED_MODULE_1__["default"].span.withConfig({
   displayName: "Footer__Registered",
   componentId: "sc-1v8a5ts-6"
@@ -959,7 +959,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var animate_css_animate_min_css__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(animate_css_animate_min_css__WEBPACK_IMPORTED_MODULE_2__);
 /* harmony import */ var _TextComponent__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../TextComponent */ "./components/TextComponent.js");
 /* harmony import */ var _BoxComponent__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../BoxComponent */ "./components/BoxComponent.js");
-var _jsxFileName = "/projects/terapartners/terapartners-website/components/Home/FirstSection.js";
+var _jsxFileName = "/Users/marianapiazza/projects/terapartners.github.io/components/Home/FirstSection.js";
 
 
 
@@ -1020,7 +1020,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react_anime__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! react-anime */ "./node_modules/react-anime/dist/react-anime.js");
 /* harmony import */ var react_anime__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(react_anime__WEBPACK_IMPORTED_MODULE_2__);
 /* harmony import */ var _Parallax__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../Parallax */ "./components/Parallax.js");
-var _jsxFileName = "/projects/terapartners/terapartners-website/components/Home/Hero.js";
+var _jsxFileName = "/Users/marianapiazza/projects/terapartners.github.io/components/Home/Hero.js";
  // import ImageParallax from '../Home/ImageParallax';
 
 
@@ -1029,7 +1029,7 @@ var _jsxFileName = "/projects/terapartners/terapartners-website/components/Home/
 var TextWrapper = styled_components__WEBPACK_IMPORTED_MODULE_1__["default"].div.withConfig({
   displayName: "Hero__TextWrapper",
   componentId: "m66yis-0"
-})(["position:absolute;color:white;font-size:25px;line-height:40px;top:700px;left:156px;z-index:1;font-family:Rajdhani;"]);
+})(["position:absolute;color:white;font-size:25px;line-height:40px;top:750px;left:156px;z-index:1;font-family:Rajdhani;"]);
 
 function Hero() {
   return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
@@ -1068,7 +1068,7 @@ function Hero() {
       lineNumber: 31
     },
     __self: this
-  }, "we focus on the details"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+  }, "we focussss on the details"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     style: {
       display: ''
     },
@@ -1086,8 +1086,8 @@ function Hero() {
   }, "so you can focus on the big picture"))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_Parallax__WEBPACK_IMPORTED_MODULE_3__["default"], {
     parallaxHeight: "820px",
     width: "1800px",
-    marginTop: "550px",
-    src: "/static/hero1.jpg",
+    marginTop: "450px",
+    src: "/static/hero.png",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 41
@@ -1114,7 +1114,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var styled_components__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! styled-components */ "./node_modules/styled-components/dist/styled-components.browser.esm.js");
 /* harmony import */ var _TextComponent__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../TextComponent */ "./components/TextComponent.js");
 /* harmony import */ var _ColumnComponent__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../ColumnComponent */ "./components/ColumnComponent.js");
-var _jsxFileName = "/projects/terapartners/terapartners-website/components/Home/SecondSection.js";
+var _jsxFileName = "/Users/marianapiazza/projects/terapartners.github.io/components/Home/SecondSection.js";
 
 
 
@@ -1177,7 +1177,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var next_link__WEBPACK_IMPORTED_MODULE_4___default = /*#__PURE__*/__webpack_require__.n(next_link__WEBPACK_IMPORTED_MODULE_4__);
 /* harmony import */ var next_router__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! next/router */ "./node_modules/next/router.js");
 /* harmony import */ var next_router__WEBPACK_IMPORTED_MODULE_5___default = /*#__PURE__*/__webpack_require__.n(next_router__WEBPACK_IMPORTED_MODULE_5__);
-var _jsxFileName = "/projects/terapartners/terapartners-website/components/Menu.js";
+var _jsxFileName = "/Users/marianapiazza/projects/terapartners.github.io/components/Menu.js";
 
 function _typeof(obj) { if (typeof Symbol === "function" && typeof Symbol.iterator === "symbol") { _typeof = function _typeof(obj) { return typeof obj; }; } else { _typeof = function _typeof(obj) { return obj && typeof Symbol === "function" && obj.constructor === Symbol && obj !== Symbol.prototype ? "symbol" : typeof obj; }; } return _typeof(obj); }
 
@@ -1562,7 +1562,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var styled_components__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! styled-components */ "./node_modules/styled-components/dist/styled-components.browser.esm.js");
 /* harmony import */ var react_parallax__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! react-parallax */ "./node_modules/react-parallax/dist/index.js");
 /* harmony import */ var react_parallax__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(react_parallax__WEBPACK_IMPORTED_MODULE_2__);
-var _jsxFileName = "/projects/terapartners/terapartners-website/components/Parallax.js";
+var _jsxFileName = "/Users/marianapiazza/projects/terapartners.github.io/components/Parallax.js";
  // import ImageParallax from '../Home/ImageParallax';
 
 
@@ -1630,7 +1630,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react_flexbox_grid__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(react_flexbox_grid__WEBPACK_IMPORTED_MODULE_2__);
 /* harmony import */ var react_animate_on_scroll__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! react-animate-on-scroll */ "./node_modules/react-animate-on-scroll/dist/scrollAnimation.min.js");
 /* harmony import */ var react_animate_on_scroll__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(react_animate_on_scroll__WEBPACK_IMPORTED_MODULE_3__);
-var _jsxFileName = "/projects/terapartners/terapartners-website/components/TextComponent.js";
+var _jsxFileName = "/Users/marianapiazza/projects/terapartners.github.io/components/TextComponent.js";
 
 
 
@@ -27395,7 +27395,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _components_Menu__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ../components/Menu */ "./components/Menu.js");
 /* harmony import */ var animate_css_animate_min_css__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! animate.css/animate.min.css */ "./node_modules/animate.css/animate.min.css");
 /* harmony import */ var animate_css_animate_min_css__WEBPACK_IMPORTED_MODULE_9___default = /*#__PURE__*/__webpack_require__.n(animate_css_animate_min_css__WEBPACK_IMPORTED_MODULE_9__);
-var _jsxFileName = "/projects/terapartners/terapartners-website/pages/index.js";
+var _jsxFileName = "/Users/marianapiazza/projects/terapartners.github.io/pages/index.js";
 
 function _typeof(obj) { if (typeof Symbol === "function" && typeof Symbol.iterator === "symbol") { _typeof = function _typeof(obj) { return typeof obj; }; } else { _typeof = function _typeof(obj) { return obj && typeof Symbol === "function" && obj.constructor === Symbol && obj !== Symbol.prototype ? "symbol" : typeof obj; }; } return _typeof(obj); }
 
