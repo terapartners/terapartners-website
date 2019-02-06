@@ -80,7 +80,7 @@ export function FirstSection(props) {
             xs={12}
             md={12}
             lg={12 / columns}
-            key={idx}
+            key={srcs[idx]}
           >
             <Box
               src={srcs[idx]}

@@ -18,7 +18,7 @@ export default function ColumnComponent(props) {
             xs={12}
             md={12}
             lg={12 / columns}
-            key={idx}
+            key={srcs[idx]}
           >
             <Column
               height={960 / columns - 10}
