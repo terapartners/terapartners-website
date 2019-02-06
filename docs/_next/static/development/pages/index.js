@@ -17,7 +17,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react_animate_on_scroll__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(react_animate_on_scroll__WEBPACK_IMPORTED_MODULE_2__);
 /* harmony import */ var next_link__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! next/link */ "./node_modules/next/link.js");
 /* harmony import */ var next_link__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(next_link__WEBPACK_IMPORTED_MODULE_3__);
-var _jsxFileName = "/Users/marianapiazza/projects/terapartners/components/Box.js";
+var _jsxFileName = "/projects/terapartners/terapartners-website/components/Box.js";
 
 
 
@@ -37,11 +37,11 @@ var Overlay = styled_components__WEBPACK_IMPORTED_MODULE_1__["default"].div.with
 var BoxText = styled_components__WEBPACK_IMPORTED_MODULE_1__["default"].span.withConfig({
   displayName: "Box__BoxText",
   componentId: "sc-1z4595-2"
-})(["font-size:30px;font-family:raleway-regular;color:white;display:block;margin:0 auto;text-align:left;position:absolute;width:200px;top:50%;left:50%;opacity:0;-webkit-transform:translate(-50%,-50%);-ms-transform:translate(-50%,-50%);transform:translate(-50%,-50%);", ":hover &{opacity:1;}"], ImgWrapper);
+})(["font-size:30px;font-family:'Raleway';color:white;display:block;margin:0 auto;text-align:left;position:absolute;width:200px;top:50%;left:50%;opacity:0;-webkit-transform:translate(-50%,-50%);-ms-transform:translate(-50%,-50%);transform:translate(-50%,-50%);", ":hover &{opacity:1;}"], ImgWrapper);
 var LearnMore = styled_components__WEBPACK_IMPORTED_MODULE_1__["default"].a.withConfig({
   displayName: "Box__LearnMore",
   componentId: "sc-1z4595-3"
-})(["font-size:18px;font-family:raleway-semibold;text-align:left;color:white;cursor:pointer;&:hover{font-family:raleway-bold;text-decoration:underline;}"]);
+})(["font-size:18px;font-family:'Raleway';font-weight:600;text-align:left;color:white;cursor:pointer;&:hover{font-family:'Raleway';font-weight:700;text-decoration:underline;}"]);
 var Img = styled_components__WEBPACK_IMPORTED_MODULE_1__["default"].img.withConfig({
   displayName: "Box__Img",
   componentId: "sc-1z4595-4"
@@ -63,7 +63,7 @@ function Box(props) {
     animateIn: "fadeIn",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 74
+      lineNumber: 76
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(ImgWrapper, {
@@ -71,45 +71,45 @@ function Box(props) {
     height: height,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 75
+      lineNumber: 77
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(Img, {
     src: src,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 76
+      lineNumber: 78
     },
     __self: this
   }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(Overlay, {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 77
+      lineNumber: 79
     },
     __self: this
   }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(next_link__WEBPACK_IMPORTED_MODULE_3___default.a, {
     href: link,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 78
+      lineNumber: 80
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(BoxText, {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 79
+      lineNumber: 81
     },
     __self: this
   }, txt, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("br", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 81
+      lineNumber: 83
     },
     __self: this
   }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(LearnMore, {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 82
+      lineNumber: 84
     },
     __self: this
   }, "Learn More")))));
@@ -132,7 +132,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react_flexbox_grid__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react-flexbox-grid */ "./node_modules/react-flexbox-grid/lib/index.js");
 /* harmony import */ var react_flexbox_grid__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(react_flexbox_grid__WEBPACK_IMPORTED_MODULE_1__);
 /* harmony import */ var _Box__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./Box */ "./components/Box.js");
-var _jsxFileName = "/Users/marianapiazza/projects/terapartners/components/BoxComponent.js";
+var _jsxFileName = "/projects/terapartners/terapartners-website/components/BoxComponent.js";
  // import styled from 'styled-components';
 
 
@@ -270,7 +270,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var styled_components__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! styled-components */ "./node_modules/styled-components/dist/styled-components.browser.esm.js");
 /* harmony import */ var react_animate_on_scroll__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! react-animate-on-scroll */ "./node_modules/react-animate-on-scroll/dist/scrollAnimation.min.js");
 /* harmony import */ var react_animate_on_scroll__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(react_animate_on_scroll__WEBPACK_IMPORTED_MODULE_2__);
-var _jsxFileName = "/Users/marianapiazza/projects/terapartners/components/Column.js";
+var _jsxFileName = "/projects/terapartners/terapartners-website/components/Column.js";
 
 
 
@@ -281,7 +281,7 @@ var ContentWrapper = styled_components__WEBPACK_IMPORTED_MODULE_1__["default"].d
 var Content = styled_components__WEBPACK_IMPORTED_MODULE_1__["default"].span.withConfig({
   displayName: "Column__Content",
   componentId: "c3sib0-1"
-})(["font-size:16px;line-height:40px;font-family:raleway-light;text-align:center;"]);
+})(["font-size:16px;line-height:40px;font-family:'Raleway';font-weight:300;text-align:center;"]);
 var ImgWrapper = styled_components__WEBPACK_IMPORTED_MODULE_1__["default"].div.withConfig({
   displayName: "Column__ImgWrapper",
   componentId: "c3sib0-2"
@@ -293,11 +293,11 @@ var ImgWrapper = styled_components__WEBPACK_IMPORTED_MODULE_1__["default"].div.w
 var BoxText = styled_components__WEBPACK_IMPORTED_MODULE_1__["default"].span.withConfig({
   displayName: "Column__BoxText",
   componentId: "c3sib0-3"
-})(["font-size:22px;font-family:raleway-regular;color:white;display:block;margin:0 auto;text-align:left;position:absolute;line-height:30px;top:20%;left:20%;opacity:0;-webkit-transform:translate(-20%,-20%);-ms-transform:translate(-20%,-20%);transform:translate(-20%,-20%);transition:.5s ease;", ":hover &{opacity:1;}"], ImgWrapper);
+})(["font-size:22px;font-family:'Raleway';color:white;display:block;margin:0 auto;text-align:left;position:absolute;line-height:30px;top:20%;left:20%;opacity:0;-webkit-transform:translate(-20%,-20%);-ms-transform:translate(-20%,-20%);transform:translate(-20%,-20%);transition:.5s ease;", ":hover &{opacity:1;}"], ImgWrapper);
 var LearnMore = styled_components__WEBPACK_IMPORTED_MODULE_1__["default"].a.withConfig({
   displayName: "Column__LearnMore",
   componentId: "c3sib0-4"
-})(["font-size:15px;font-family:raleway-semibold;text-align:left;color:white;cursor:pointer;&:hover{font-family:raleway-bold;text-decoration:underline;}"]);
+})(["font-size:15px;font-family:'Raleway';font-weight:600;text-align:left;color:white;cursor:pointer;&:hover{font-family:'Raleway';font-family:700;text-decoration:underline;}"]);
 var Overlay = styled_components__WEBPACK_IMPORTED_MODULE_1__["default"].div.withConfig({
   displayName: "Column__Overlay",
   componentId: "c3sib0-5"
@@ -324,7 +324,7 @@ function Column(props) {
     animateIn: "fadeIn",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 93
+      lineNumber: 96
     },
     __self: this
   }, src && react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(ImgWrapper, {
@@ -332,63 +332,63 @@ function Column(props) {
     height: height,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 96
+      lineNumber: 99
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(Img, {
     src: src,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 97
+      lineNumber: 100
     },
     __self: this
   }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(Overlay, {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 98
+      lineNumber: 101
     },
     __self: this
   }, overlaySrc && react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(Img, {
     src: overlaySrc,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 99
+      lineNumber: 102
     },
     __self: this
   })), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(BoxText, {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 101
+      lineNumber: 104
     },
     __self: this
   }, name, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("br", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 103
+      lineNumber: 106
     },
     __self: this
   }), surname, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("br", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 105
+      lineNumber: 108
     },
     __self: this
   }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(LearnMore, {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 106
+      lineNumber: 109
     },
     __self: this
   }, "Learn More"))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(ContentWrapper, {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 111
+      lineNumber: 114
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(Content, {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 112
+      lineNumber: 115
     },
     __self: this
   }, content)));
@@ -411,7 +411,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react_flexbox_grid__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react-flexbox-grid */ "./node_modules/react-flexbox-grid/lib/index.js");
 /* harmony import */ var react_flexbox_grid__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(react_flexbox_grid__WEBPACK_IMPORTED_MODULE_1__);
 /* harmony import */ var _Column__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./Column */ "./components/Column.js");
-var _jsxFileName = "/Users/marianapiazza/projects/terapartners/components/ColumnComponent.js";
+var _jsxFileName = "/projects/terapartners/terapartners-website/components/ColumnComponent.js";
 
 
 
@@ -491,7 +491,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
 /* harmony import */ var styled_components__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! styled-components */ "./node_modules/styled-components/dist/styled-components.browser.esm.js");
 /* harmony import */ var _Parallax__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./Parallax */ "./components/Parallax.js");
-var _jsxFileName = "/Users/marianapiazza/projects/terapartners/components/Divisor.js";
+var _jsxFileName = "/projects/terapartners/terapartners-website/components/Divisor.js";
 
 
 
@@ -548,7 +548,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var next_link__WEBPACK_IMPORTED_MODULE_4___default = /*#__PURE__*/__webpack_require__.n(next_link__WEBPACK_IMPORTED_MODULE_4__);
 /* harmony import */ var react_scroll__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! react-scroll */ "./node_modules/react-scroll/modules/index.js");
 /* harmony import */ var react_scroll__WEBPACK_IMPORTED_MODULE_5___default = /*#__PURE__*/__webpack_require__.n(react_scroll__WEBPACK_IMPORTED_MODULE_5__);
-var _jsxFileName = "/Users/marianapiazza/projects/terapartners/components/Footer.js";
+var _jsxFileName = "/projects/terapartners/terapartners-website/components/Footer.js";
 
 function _typeof(obj) { if (typeof Symbol === "function" && typeof Symbol.iterator === "symbol") { _typeof = function _typeof(obj) { return typeof obj; }; } else { _typeof = function _typeof(obj) { return obj && typeof Symbol === "function" && obj.constructor === Symbol && obj !== Symbol.prototype ? "symbol" : typeof obj; }; } return _typeof(obj); }
 
@@ -599,7 +599,7 @@ var TextWrapper = styled_components__WEBPACK_IMPORTED_MODULE_1__["default"].div.
 var Text = styled_components__WEBPACK_IMPORTED_MODULE_1__["default"].span.withConfig({
   displayName: "Footer__Text",
   componentId: "sc-1v8a5ts-5"
-})(["color:white;font-size:16px;font-family:Rajdhani;text-transform:uppercase;", ":hover &{font-family:Rajdhani-semibold;cursor:pointer;}"], TextWrapper);
+})(["color:white;font-size:16px;font-family:Rajdhani;text-transform:uppercase;", ":hover &{font-family:'Rajdhani';font-weight:400;cursor:pointer;}"], TextWrapper);
 var Registered = styled_components__WEBPACK_IMPORTED_MODULE_1__["default"].span.withConfig({
   displayName: "Footer__Registered",
   componentId: "sc-1v8a5ts-6"
@@ -645,56 +645,56 @@ function (_React$Component) {
       return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(Wrapper, {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 95
+          lineNumber: 96
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(Background, {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 96
+          lineNumber: 97
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(Circle, {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 97
+          lineNumber: 98
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(Icon, {
         onClick: this.scrollToTop,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 98
+          lineNumber: 99
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 99
+          lineNumber: 100
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_icons_fa__WEBPACK_IMPORTED_MODULE_3__["FaAngleUp"], {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 99
+          lineNumber: 100
         },
         __self: this
       })), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("br", {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 100
+          lineNumber: 101
         },
         __self: this
       }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 101
+          lineNumber: 102
         },
         __self: this
       }, "Top"))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_flexbox_grid__WEBPACK_IMPORTED_MODULE_2__["Grid"], {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 104
+          lineNumber: 105
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_flexbox_grid__WEBPACK_IMPORTED_MODULE_2__["Row"], {
@@ -704,7 +704,7 @@ function (_React$Component) {
         },
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 105
+          lineNumber: 106
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_flexbox_grid__WEBPACK_IMPORTED_MODULE_2__["Col"], {
@@ -716,20 +716,20 @@ function (_React$Component) {
         },
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 106
+          lineNumber: 107
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(IconWrapper, {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 110
+          lineNumber: 111
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_icons_fa__WEBPACK_IMPORTED_MODULE_3__["FaLinkedinIn"], {
         size: "2em",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 110
+          lineNumber: 111
         },
         __self: this
       })), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(IconWrapper, {
@@ -738,20 +738,20 @@ function (_React$Component) {
         },
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 111
+          lineNumber: 112
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_icons_fa__WEBPACK_IMPORTED_MODULE_3__["FaSkype"], {
         size: "2em",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 111
+          lineNumber: 112
         },
         __self: this
       })))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(Hr, {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 114
+          lineNumber: 115
         },
         __self: this
       }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_flexbox_grid__WEBPACK_IMPORTED_MODULE_2__["Row"], {
@@ -760,7 +760,7 @@ function (_React$Component) {
         },
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 115
+          lineNumber: 116
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_flexbox_grid__WEBPACK_IMPORTED_MODULE_2__["Col"], {
@@ -770,26 +770,26 @@ function (_React$Component) {
         md: 2,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 116
+          lineNumber: 117
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(next_link__WEBPACK_IMPORTED_MODULE_4___default.a, {
         href: "/",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 117
+          lineNumber: 118
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(TextWrapper, {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 118
+          lineNumber: 119
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(Text, {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 119
+          lineNumber: 120
         },
         __self: this
       }, "Who We Are")))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_flexbox_grid__WEBPACK_IMPORTED_MODULE_2__["Col"], {
@@ -797,26 +797,26 @@ function (_React$Component) {
         md: 2,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 123
+          lineNumber: 124
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(next_link__WEBPACK_IMPORTED_MODULE_4___default.a, {
         href: "/mea",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 124
+          lineNumber: 125
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(TextWrapper, {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 125
+          lineNumber: 126
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(Text, {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 126
+          lineNumber: 127
         },
         __self: this
       }, "M&A")))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_flexbox_grid__WEBPACK_IMPORTED_MODULE_2__["Col"], {
@@ -824,26 +824,26 @@ function (_React$Component) {
         md: 2,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 130
+          lineNumber: 131
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(next_link__WEBPACK_IMPORTED_MODULE_4___default.a, {
         href: "/restructuring",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 131
+          lineNumber: 132
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(TextWrapper, {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 132
+          lineNumber: 133
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(Text, {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 133
+          lineNumber: 134
         },
         __self: this
       }, "Restructuring")))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_flexbox_grid__WEBPACK_IMPORTED_MODULE_2__["Col"], {
@@ -851,26 +851,26 @@ function (_React$Component) {
         md: 2,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 137
+          lineNumber: 138
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(next_link__WEBPACK_IMPORTED_MODULE_4___default.a, {
         href: "/Startups",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 138
+          lineNumber: 139
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(TextWrapper, {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 139
+          lineNumber: 140
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(Text, {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 140
+          lineNumber: 141
         },
         __self: this
       }, "Startups")))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_flexbox_grid__WEBPACK_IMPORTED_MODULE_2__["Col"], {
@@ -878,26 +878,26 @@ function (_React$Component) {
         md: 2,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 144
+          lineNumber: 145
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(next_link__WEBPACK_IMPORTED_MODULE_4___default.a, {
         href: "/contact",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 145
+          lineNumber: 146
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(TextWrapper, {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 146
+          lineNumber: 147
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(Text, {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 147
+          lineNumber: 148
         },
         __self: this
       }, "Contact"))))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_flexbox_grid__WEBPACK_IMPORTED_MODULE_2__["Row"], {
@@ -906,7 +906,7 @@ function (_React$Component) {
         },
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 152
+          lineNumber: 153
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_flexbox_grid__WEBPACK_IMPORTED_MODULE_2__["Col"], {
@@ -917,19 +917,19 @@ function (_React$Component) {
         md: 12,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 153
+          lineNumber: 154
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(TextWrapper, {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 154
+          lineNumber: 155
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(Registered, {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 155
+          lineNumber: 156
         },
         __self: this
       }, "2019 - All rights reserved")))))));
@@ -959,7 +959,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var animate_css_animate_min_css__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(animate_css_animate_min_css__WEBPACK_IMPORTED_MODULE_2__);
 /* harmony import */ var _TextComponent__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../TextComponent */ "./components/TextComponent.js");
 /* harmony import */ var _BoxComponent__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../BoxComponent */ "./components/BoxComponent.js");
-var _jsxFileName = "/Users/marianapiazza/projects/terapartners/components/Home/FirstSection.js";
+var _jsxFileName = "/projects/terapartners/terapartners-website/components/Home/FirstSection.js";
 
 
 
@@ -1020,7 +1020,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react_anime__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! react-anime */ "./node_modules/react-anime/dist/react-anime.js");
 /* harmony import */ var react_anime__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(react_anime__WEBPACK_IMPORTED_MODULE_2__);
 /* harmony import */ var _Parallax__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../Parallax */ "./components/Parallax.js");
-var _jsxFileName = "/Users/marianapiazza/projects/terapartners/components/Home/Hero.js";
+var _jsxFileName = "/projects/terapartners/terapartners-website/components/Home/Hero.js";
  // import ImageParallax from '../Home/ImageParallax';
 
 
@@ -1114,7 +1114,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var styled_components__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! styled-components */ "./node_modules/styled-components/dist/styled-components.browser.esm.js");
 /* harmony import */ var _TextComponent__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../TextComponent */ "./components/TextComponent.js");
 /* harmony import */ var _ColumnComponent__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../ColumnComponent */ "./components/ColumnComponent.js");
-var _jsxFileName = "/Users/marianapiazza/projects/terapartners/components/Home/SecondSection.js";
+var _jsxFileName = "/projects/terapartners/terapartners-website/components/Home/SecondSection.js";
 
 
 
@@ -1177,7 +1177,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var next_link__WEBPACK_IMPORTED_MODULE_4___default = /*#__PURE__*/__webpack_require__.n(next_link__WEBPACK_IMPORTED_MODULE_4__);
 /* harmony import */ var next_router__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! next/router */ "./node_modules/next/router.js");
 /* harmony import */ var next_router__WEBPACK_IMPORTED_MODULE_5___default = /*#__PURE__*/__webpack_require__.n(next_router__WEBPACK_IMPORTED_MODULE_5__);
-var _jsxFileName = "/Users/marianapiazza/projects/terapartners/components/Menu.js";
+var _jsxFileName = "/projects/terapartners/terapartners-website/components/Menu.js";
 
 function _typeof(obj) { if (typeof Symbol === "function" && typeof Symbol.iterator === "symbol") { _typeof = function _typeof(obj) { return typeof obj; }; } else { _typeof = function _typeof(obj) { return obj && typeof Symbol === "function" && obj.constructor === Symbol && obj !== Symbol.prototype ? "symbol" : typeof obj; }; } return _typeof(obj); }
 
@@ -1562,7 +1562,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var styled_components__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! styled-components */ "./node_modules/styled-components/dist/styled-components.browser.esm.js");
 /* harmony import */ var react_parallax__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! react-parallax */ "./node_modules/react-parallax/dist/index.js");
 /* harmony import */ var react_parallax__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(react_parallax__WEBPACK_IMPORTED_MODULE_2__);
-var _jsxFileName = "/Users/marianapiazza/projects/terapartners/components/Parallax.js";
+var _jsxFileName = "/projects/terapartners/terapartners-website/components/Parallax.js";
  // import ImageParallax from '../Home/ImageParallax';
 
 
@@ -1630,7 +1630,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react_flexbox_grid__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(react_flexbox_grid__WEBPACK_IMPORTED_MODULE_2__);
 /* harmony import */ var react_animate_on_scroll__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! react-animate-on-scroll */ "./node_modules/react-animate-on-scroll/dist/scrollAnimation.min.js");
 /* harmony import */ var react_animate_on_scroll__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(react_animate_on_scroll__WEBPACK_IMPORTED_MODULE_3__);
-var _jsxFileName = "/Users/marianapiazza/projects/terapartners/components/TextComponent.js";
+var _jsxFileName = "/projects/terapartners/terapartners-website/components/TextComponent.js";
 
 
 
@@ -1638,15 +1638,15 @@ var _jsxFileName = "/Users/marianapiazza/projects/terapartners/components/TextCo
 var Title = styled_components__WEBPACK_IMPORTED_MODULE_1__["default"].span.withConfig({
   displayName: "TextComponent__Title",
   componentId: "n7qbpw-0"
-})(["margin-top:70px;font-size:50px;font-family:raleway-thin;max-width:960px;text-align:center;"]);
+})(["margin-top:70px;font-size:50px;font-family:'Raleway';font-weight:100;max-width:960px;text-align:center;"]);
 var Subtitle = styled_components__WEBPACK_IMPORTED_MODULE_1__["default"].span.withConfig({
   displayName: "TextComponent__Subtitle",
   componentId: "n7qbpw-1"
-})(["margin-top:70px;font-size:18px;font-family:raleway-semibold;max-width:960px;text-align:center;"]);
+})(["margin-top:70px;font-size:18px;font-family:'Raleway';font-weight:600;max-width:960px;text-align:center;"]);
 var Text = styled_components__WEBPACK_IMPORTED_MODULE_1__["default"].span.withConfig({
   displayName: "TextComponent__Text",
   componentId: "n7qbpw-2"
-})(["margin-top:40px;font-size:16px;font-family:raleway-light;max-width:960px;text-align:left;line-height:40px;"]);
+})(["margin-top:40px;font-size:16px;font-family:'Raleway';font-weight:300;max-width:960px;text-align:left;line-height:40px;"]);
 var TextWrapper = styled_components__WEBPACK_IMPORTED_MODULE_1__["default"].div.withConfig({
   displayName: "TextComponent__TextWrapper",
   componentId: "n7qbpw-3"
@@ -1659,14 +1659,14 @@ function TextComponent(props) {
   return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_flexbox_grid__WEBPACK_IMPORTED_MODULE_2__["Grid"], {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 43
+      lineNumber: 46
     },
     __self: this
   }, title && react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_flexbox_grid__WEBPACK_IMPORTED_MODULE_2__["Row"], {
     xs: 12,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 46
+      lineNumber: 49
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_animate_on_scroll__WEBPACK_IMPORTED_MODULE_3___default.a, {
@@ -1677,26 +1677,26 @@ function TextComponent(props) {
     animateIn: "fadeIn",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 47
+      lineNumber: 50
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(TextWrapper, {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 48
+      lineNumber: 51
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(Title, {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 49
+      lineNumber: 52
     },
     __self: this
   }, title)))), subtitle && react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_flexbox_grid__WEBPACK_IMPORTED_MODULE_2__["Row"], {
     xs: 12,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 57
+      lineNumber: 60
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_animate_on_scroll__WEBPACK_IMPORTED_MODULE_3___default.a, {
@@ -1707,26 +1707,26 @@ function TextComponent(props) {
     animateIn: "fadeIn",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 58
+      lineNumber: 61
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(TextWrapper, {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 59
+      lineNumber: 62
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(Subtitle, {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 60
+      lineNumber: 63
     },
     __self: this
   }, subtitle)))), text && react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_flexbox_grid__WEBPACK_IMPORTED_MODULE_2__["Row"], {
     xs: 12,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 68
+      lineNumber: 71
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_animate_on_scroll__WEBPACK_IMPORTED_MODULE_3___default.a, {
@@ -1737,19 +1737,19 @@ function TextComponent(props) {
     animateIn: "fadeIn",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 69
+      lineNumber: 72
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(TextWrapper, {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 70
+      lineNumber: 73
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(Text, {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 71
+      lineNumber: 74
     },
     __self: this
   }, text)))));
@@ -27395,7 +27395,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _components_Menu__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ../components/Menu */ "./components/Menu.js");
 /* harmony import */ var animate_css_animate_min_css__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! animate.css/animate.min.css */ "./node_modules/animate.css/animate.min.css");
 /* harmony import */ var animate_css_animate_min_css__WEBPACK_IMPORTED_MODULE_9___default = /*#__PURE__*/__webpack_require__.n(animate_css_animate_min_css__WEBPACK_IMPORTED_MODULE_9__);
-var _jsxFileName = "/Users/marianapiazza/projects/terapartners/pages/index.js";
+var _jsxFileName = "/projects/terapartners/terapartners-website/pages/index.js";
 
 function _typeof(obj) { if (typeof Symbol === "function" && typeof Symbol.iterator === "symbol") { _typeof = function _typeof(obj) { return typeof obj; }; } else { _typeof = function _typeof(obj) { return obj && typeof Symbol === "function" && obj.constructor === Symbol && obj !== Symbol.prototype ? "symbol" : typeof obj; }; } return _typeof(obj); }
 
@@ -27418,7 +27418,7 @@ function _assertThisInitialized(self) { if (self === void 0) { throw new Referen
 function _defineProperty(obj, key, value) { if (key in obj) { Object.defineProperty(obj, key, { value: value, enumerable: true, configurable: true, writable: true }); } else { obj[key] = value; } return obj; }
 
 function _templateObject() {
-  var data = _taggedTemplateLiteral(["\n  body {\n    -webkit-font-smoothing: antialiased;\n    -moz-osx-font-smoothing: grayscale;\n    font-size: 16px;\n    line-height: 40px;\n    font-family: \"Raleway\";\n    color: #333;\n    background-color: #fff;\n    overflow-x: hidden;\n    margin: 0;\n  }\n"]);
+  var data = _taggedTemplateLiteral(["\n  body {\n    -webkit-font-smoothing: antialiased;\n    -moz-osx-font-smoothing: grayscale;\n    font-size: 16px;\n    line-height: 40px;\n    font-family: 'Raleway';\n    color: #333;\n    background-color: #fff;\n    overflow-x: hidden;\n    margin: 0;\n  }\n"]);
 
   _templateObject = function _templateObject() {
     return data;
