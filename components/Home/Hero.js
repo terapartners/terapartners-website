@@ -28,7 +28,7 @@ function Hero() {
           delay={(el, i) => 2000 + 500 * i}
           key={11 + Date.now()}
         >
-          <span>we focussss2 on the details</span>
+          <span>we focus on the details</span>
           <div style={{ display: '' }} />
           <span>so you can focus on the big picture</span>
         </Anime>
