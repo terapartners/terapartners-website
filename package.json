@@ -21,6 +21,7 @@
     "react": "^16.7.0",
     "react-animate-on-scroll": "^2.1.5",
     "react-anime": "^2.2.0",
+    "react-burger-menu": "^2.6.4",
     "react-dom": "^16.7.0",
     "react-flexbox-grid": "^2.1.2",
     "react-icons": "^3.3.0",

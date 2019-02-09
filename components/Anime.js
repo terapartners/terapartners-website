@@ -4,7 +4,7 @@ import Anime from 'react-anime';
 export default function (props) {
   const { children } = props;
   const runningOnBrowser = typeof (window) !== 'undefined';
-  console.log(`runningOnBrowser: ${runningOnBrowser}`);
+  // console.log(`runningOnBrowser: ${runningOnBrowser}`);
   if (runningOnBrowser) {
     return (<Anime {...props} />);
   }

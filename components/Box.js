@@ -4,8 +4,8 @@ import ScrollAnimation from 'react-animate-on-scroll';
 import Link from 'next/link';
 
 const ImgWrapper = styled.div`
-  width: ${props => props.width};
-  height: ${props => props.height};
+  max-width: ${props => props.width};
+  max-height: ${props => props.height};
   overflow: hidden;
   position: relative;
   margin: 0 auto;

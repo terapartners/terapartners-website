@@ -10,12 +10,20 @@ const TextWrapper = styled.div`
   font-size: 25px;
   line-height: 40px;
   top: 85vh;
-  left: 156px;
   z-index: 1;
   font-family: Rajdhani;
+  @media (min-width: 767px) {
+    left: 156px;
+  }
+  @media (max-width: 767px) {
+    text-align: center;
+    width: 80%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
 `;
 
-function Hero() {
+function Hero(props) {
   return (
     <div style={{ height: '100%' }}>
       <TextWrapper>
@@ -39,9 +47,10 @@ function Hero() {
         url={'home'}
       /> */}
       <Parallax
-        parallaxHeight="820px"
+        parallaxHeight="100vh"
         width="1800px"
         marginTop="450px"
+        marginLeft="-800px"
         src="/static/hero.png"
       />
     </div>

@@ -7,19 +7,24 @@ const Img = styled.img`
   -webkit-filter: grayscale(100%) brightness(110%) contrast(130%);
   filter: grayscale(100%) brightness(110%) contrast(130%);
   /* width: 100vw; */
-  width: ${props => props.width};
+  max-width: ${props => props.width};
+  min-width: 100vw;
   margin-top: ${props => props.marginTop};
+  @media (max-width: 767px) {
+    margin-left: ${props => props.marginLeft};
+  }
 `;
 
 
 function ParallaxComponent(props) {
   const {
-    parallaxHeight, marginTop, width, src,
+    parallaxHeight, marginTop, marginLeft, width, src,
   } = props;
+
   return (
     <Parallax style={{ height: parallaxHeight }} strength={1000}>
       <Background className="custom-bg">
-        <Img marginTop={marginTop} width={width} src={src} />
+        <Img marginTop={marginTop} marginLeft={marginLeft} width={width} src={src} />
       </Background>
     </Parallax>
   );

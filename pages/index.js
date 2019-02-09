@@ -34,7 +34,7 @@ export default class extends React.Component {
   }
 
   navigate = url => () => {
-    console.log('url', url);
+    // console.log('url', url);
     this.setState({
       location: url, // eslint-disable-line react/no-unused-state
     }, () => {
@@ -50,6 +50,7 @@ export default class extends React.Component {
   }
 
   render() {
+    // const height = window.innerWidth && window.innerWidth <= '767px' ? '100vh' :
     return (
       <div>
         <Head>
@@ -59,12 +60,12 @@ export default class extends React.Component {
         </Head>
         <GlobalStyle />
         <div>
-          <Menu navigate={this.navigate} />
+          <Menu navigate={this.navigate} color={'white'}/>
           <Hero />
           <FirstSection />
           <Divisor
             parallaxHeight="600px"
-            width="100vw"
+            width="1800px"
             marginTop="300px"
             src="/static/dividor1.jpg"
           />
