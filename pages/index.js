@@ -53,7 +53,7 @@ export default class extends React.Component {
     return (
       <div>
         <Head>
-          <title>My page title</title>
+          <title>Tera Partners | Mergers & Acquisitions, Startup advisory firm in São Paulo, Brazil</title>
           <meta name="viewport" content="initial-scale=1.0, width=device-width" />
           <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css" />
         </Head>

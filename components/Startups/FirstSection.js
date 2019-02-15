@@ -11,8 +11,8 @@ function FirstSection(/* props */) {
     <Wrapper>
       <TextComponent
         title="Startups"
-        subtitle="Tera partners is a results-driven organisation that provides the highest level of expertise and advice in a large variety of sectors."
-        text="We are a boutique advisory firm specializing in cross-border mergers and acquisitions of innovative companies. With extensive deal-making experience, we pay a great deal of attention to details and leverage our high-quality relationships with CEOs, corporate development executives, and private equity firms worldwide to assist our clients in accelerating their growth and exploring strategic options in today’s world, where technology changes in the blink of an eye. Organised in 4 Divisions: Mergers and Acquisitions, Restructuring, Consulting and Startups, the company operates globally providing services to mid-market to fortune 500 companies."
+        subtitle="Great ideas must include top execution"
+        text="We know how startup founders mindset work. Day-to-day business is hard enough for founders to be left aside while executing strategic moves. Especially fundraising but also overall startup execution, including technology and sales. Tera Partners has a team of specialists to help your startup walk every strategic step needed to reach your vision."
       />
     </Wrapper>
   );

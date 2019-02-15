@@ -30,8 +30,9 @@ export class MEA extends React.PureComponent {
     return (
       <div>
         <Head>
-          <title>My page title</title>
+          <title>Startups | Tera Partners | Mergers & Acquisitions, Startup advisory firm in São Paulo, Brazil</title>
           <meta name="viewport" content="initial-scale=1.0, width=device-width" />
+          <meta name="description" content="Tera Partners is an M&A firm with a dedicated team to help startup founders dealing with fundraising, business plan execution and overall consulting." />
           <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css" />
         </Head>
         <GlobalStyle />

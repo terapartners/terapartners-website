@@ -15,14 +15,14 @@ function SecondSection() {
       />
       <ColumnComponent
         columns={3}
-        srcs={['/static/pedro.jpeg', '/static/pedro.jpeg', '/static/pedro.jpeg']}
-        overlaySrcs={['/static/pedroover.png', '/static/pedroover.png', '/static/pedroover.png']}
-        names={['David', 'Pedro', 'Fabiano']}
-        surnames={['Oliveira', 'Cavalcante', 'Mansur']}
+        srcs={['/static/pedro.jpeg', '/static/placeholder.jpeg', '/static/placeholder.jpeg']}
+        overlaySrcs={['/static/pedroover.png', '/static/placeholderover.png', '/static/placeholderover.png']}
+        names={['Pedro', 'David', 'Fabiano']}
+        surnames={['Cavalcante', 'Oliveira', 'Mansur']}
         contents={[
-          'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec aliquam tristique ex vel luctus. Aenean rutrum pulvinar pulvinar. Donec sit amet tsem eu lacus accumsan hendrerit eu non justo. Proin a quam dignissim, vulputate velit id, porttitor ex. Nullam vitae urna vitae augue molestie euismod nec cursus erat. Cras vel sodales elit, vitae pellentesque ligula. Morbi ac purus eget lectus fermentum faucibus. Pellentesque mattis ex consequat ex tincidunt pulvinar.',
-          'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec aliquam tristique ex vel luctus. Aenean rutrum pulvinar pulvinar. Donec sit amet tsem eu lacus accumsan hendrerit eu non justo. Proin a quam dignissim, vulputate velit id, porttitor ex. Nullam vitae urna vitae augue molestie euismod nec cursus erat. Cras vel sodales elit, vitae pellentesque ligula. Morbi ac purus eget lectus fermentum faucibus. Pellentesque mattis ex consequat ex tincidunt pulvinar.',
-          'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec aliquam tristique ex vel luctus. Aenean rutrum pulvinar pulvinar. Donec sit amet tsem eu lacus accumsan hendrerit eu non justo. Proin a quam dignissim, vulputate velit id, porttitor ex. Nullam vitae urna vitae augue molestie euismod nec cursus erat. Cras vel sodales elit, vitae pellentesque ligula. Morbi ac purus eget lectus fermentum faucibus. Pellentesque mattis ex consequat ex tincidunt pulvinar.',
+          'Financial and tech entrepreneur with 15+ years experience in high technology and banking. Founded FINTTA and was a tech advisor to VYA, Routeasy and Estudando.com. BS in Computer Engineering (Poli-USP)',
+          'Executive and entrepreneur with 15+ years experience in banking, management consulting and financial advisory. Has held leadership positions at Suzano, Alix Partners, Olimpia Partners, Standard Bank, Banco Brasil Plural and Stern Stewart. MSc in Business (Stanford), MSc in Economics (Insper), BA in Business (USP), CFA charterholder.',
+          'Accomplished finance executive with 15+ years experience in banking, private equity, restructuring and financial advisory. Partner at Banco Brasil Plural responsible for the real estate sector, Co-founded SPF Investimentos and has held leadership positions at Matlin Patterson and Banco Itaú BBA. BA in Business (Insper, graduated summa cum laude).',
         ]}
       />
     </Wrapper>

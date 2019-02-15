@@ -173,11 +173,11 @@ class Menu extends React.PureComponent {
                             <Button>Startups</Button>
                           </Link>
                         </Li>
-                        <Li map={map} number={4}>
+                        {/* <Li map={map} number={4}>
                           <Link href="/contact">
                             <Button>Contact</Button>
                           </Link>
-                        </Li>
+                        </Li> */}
                         <Hr location={currLocation} />
                       </Anime>
                     </ul>

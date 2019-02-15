@@ -13,7 +13,7 @@ export default function ColumnComponent(props) {
         {contents.map((c, idx) => (
           <Col
             style={{
-              padding: '0', marginBottom: '10px', display: 'flex', alignItems: 'center', justifyContent: 'flex-start',
+              padding: '0', marginBottom: '10px', display: 'flex', alignItems: 'baseline', justifyContent: 'flex-start',
             }}
             xs={12}
             md={12}

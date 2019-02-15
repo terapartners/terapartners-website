@@ -30,7 +30,7 @@ export class MEA extends React.PureComponent {
     return (
       <div>
         <Head>
-          <title>My page title</title>
+          <title>Restructuring | Tera Partners | Mergers & Acquisitions, Startup advisory firm in São Paulo, Brazil</title>
           <meta name="viewport" content="initial-scale=1.0, width=device-width" />
           <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css" />
         </Head>
