@@ -37,13 +37,14 @@ export class MEA extends React.PureComponent {
         </Head>
         <GlobalStyle />
         <div>
-          <Menu navigate={this.navigate} />
+          <Menu navigate={this.navigate} color={'#828282'} />
           <Hero />
           <FirstSection />
           <Divisor
             parallaxHeight="600px"
-            width="100vw"
+            width="1800px"
             marginTop="500px"
+            marginLeft="-800px"
             src="/static/dividor2.jpg"
           />
           <SecondSection />

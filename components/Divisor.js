@@ -8,7 +8,7 @@ const Wrapper = styled.div`
 
 function Divisor(props) {
   const {
-    parallaxHeight, width, marginTop, src,
+    parallaxHeight, width, marginTop, marginLeft, src,
   } = props;
   return (
     <Wrapper>
@@ -16,6 +16,7 @@ function Divisor(props) {
         parallaxHeight={parallaxHeight}
         width={width}
         marginTop={marginTop}
+        marginLeft={marginLeft}
         src={src}
       />
     </Wrapper>

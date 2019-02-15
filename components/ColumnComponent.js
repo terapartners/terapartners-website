@@ -6,7 +6,6 @@ export default function ColumnComponent(props) {
   const {
     contents, columns, srcs, overlaySrcs, names, surnames,
   } = props;
-  console.log(props);
   return (
     <Grid>
       <Row style={{ maxWidth: '960px', margin: 'auto', marginTop: '70px' }} xs={12}>

@@ -25,7 +25,7 @@ const GlobalStyle = createGlobalStyle`
   }
 `;
 
-export class MEA extends React.PureComponent {
+export class Startups extends React.PureComponent {
   render() {
     return (
       <div>
@@ -37,13 +37,14 @@ export class MEA extends React.PureComponent {
         </Head>
         <GlobalStyle />
         <div>
-          <Menu navigate={this.navigate} />
+          <Menu navigate={this.navigate} color={'white'}/>
           <Hero />
           <FirstSection />
           <Divisor
             parallaxHeight="600px"
-            width="100vw"
+            width="1800px"
             marginTop="500px"
+            marginLeft="1000px"
             src="/static/dividor4.jpg"
           />
           <SecondSection />
@@ -55,4 +56,4 @@ export class MEA extends React.PureComponent {
   }
 }
 
-export default (MEA);
+export default (Startups);

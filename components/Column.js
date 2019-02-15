@@ -6,6 +6,8 @@ import ScrollAnimation from 'react-animate-on-scroll';
 const ContentWrapper = styled.div`
   margin-top: 40px;
   margin-bottom: 70px;
+  margin-left: 10px;
+  margin-right: 10px;
 `;
 
 const Content = styled.span`
@@ -18,11 +20,14 @@ const Content = styled.span`
 
 
 const ImgWrapper = styled.div`
-  height: ${props => props.height}px;
-  width: ${props => props.width}px;
+
   overflow: hidden;
   position: relative;
   margin: 0 auto;
+  @media (min-width: 767px) {
+    height: ${props => props.height}px;
+    width: ${props => props.width}px;
+  }
 `;
 
 const BoxText = styled.span`
@@ -91,9 +96,8 @@ export default function Column(props) {
     width, height, src, overlaySrc, name, surname, content,
   } = props;
 
-  console.log(width);
   return (
-    <ScrollAnimation style={{ width, position: 'relative' }} animateOnce animateIn="fadeIn">
+    <ScrollAnimation style={{ position: 'relative' }} animateOnce animateIn="fadeIn">
       {src
         && (
         <ImgWrapper width={width} height={height}>

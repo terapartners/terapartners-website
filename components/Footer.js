@@ -6,17 +6,16 @@ import Link from 'next/link';
 import { animateScroll as Scroll } from 'react-scroll';
 
 const Wrapper = styled.div`
-  height: 400px;
   position: relative;
-
 `;
 
 const Background = styled.div`
-  height: 400px;
   z-index: -2;
-  box-shadow: inset 0px 0px 10px #000;
+  // box-shadow: inset 0px 0px 10px #000;
   width: 100%;
   background-color: #005f9e;
+  box-shadow: inset 0 -8px 4px 4px #005f9e, inset 0 2px 4px 0px rgba(0, 0, 0, 1);
+
 `;
 
 const IconWrapper = styled.span`
@@ -55,21 +54,23 @@ const Circle = styled.div`
   background-color: #fff;
   border-radius: 50px;
   position: relative;
-  top: -25px;
-  z-index: auto;
-  left: 48.5%;
-  &:after {
-    width: 100%;
-    position: absolute;
-    content: '';
-    height: 50%;
-    top: 50%;
-    left: 0;
-    box-shadow: 0px 0px 10px #000;
-    border-bottom-left-radius: 50px;
-    border-bottom-right-radius: 50px;
-    z-index: -1;
-  }
+  top: 0px;
+  z-index: 1;
+  left: 50%;
+  transform: translate(-50%, -50%);
+`;
+
+const CircleShadow = styled.div`
+  height: 25px;
+  width: 50px;
+  position: absolute;
+  top: 12.5px;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  box-shadow: 0px 0px 10px #000;
+  border-bottom-left-radius: 50px;
+  border-bottom-right-radius: 50px;
+  z-index: 0;
 `;
 
 const Icon = styled.a`
@@ -102,6 +103,7 @@ export default class Footer extends React.Component {
               <span>Top</span>
             </Icon>
           </Circle>
+          <CircleShadow/>
           <Grid>
             <Row style={{ paddingTop: '70px', marginBottom: '20px' }}>
               <Col style={{
