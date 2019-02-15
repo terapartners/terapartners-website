@@ -59,7 +59,7 @@ class Menu extends React.PureComponent {
             <Col style={{ display: 'flex', alignItems: 'center' }} middle="xs" xs={2} md={2}>
               <Logo/>
             </Col>
-            <Col style={{ display: 'flex', alignItems: 'center', justifyContent: 'flex-end' }} xs={7} md={7}>
+            <Col style={{ display: 'flex', alignItems: 'center', justifyContent: 'flex-end' }} xs={8} md={8}>
               <NavBarMobile color={this.props.color}/>
               <NavBarDesktop location={this.props.location} color={this.props.color}/>
             </Col>
