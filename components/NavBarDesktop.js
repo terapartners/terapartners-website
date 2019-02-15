@@ -139,11 +139,11 @@ class NavBarDesktop extends React.PureComponent {
                     <Button color={this.state.color}>Consulting</Button>
                   </Link>
                 </Li>
-                <Li map={map} number={5}>
+                {/* <Li map={map} number={5}>
                   <Link href="/contact">
                     <Button color={this.state.color}>Contact</Button>
                   </Link>
-                </Li>
+                </Li> */}
                 <Hr location={currLocation} />
             </ul>
           </nav>

@@ -158,7 +158,7 @@ class NavBarMobile extends React.PureComponent {
           <a href={'/restructuring'} id="restructuring" onClick={this.closeMenu} >RESTRUCTURING</a>
           <a href={'/startups'} id="startups" onClick={this.closeMenu} >STARTUPS</a>
           <a href={'/consulting'} id="consulting" onClick={this.closeMenu} >CONSULTING</a>
-          <a href={'/contact'} id="contact" onClick={this.closeMenu} >CONTACT</a>
+          {/* <a href={'/contact'} id="contact" onClick={this.closeMenu} >CONTACT</a> */}
         </Menu>
       </Mobile>
     );
