@@ -17,7 +17,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react_animate_on_scroll__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(react_animate_on_scroll__WEBPACK_IMPORTED_MODULE_2__);
 /* harmony import */ var next_link__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! next/link */ "./node_modules/next/link.js");
 /* harmony import */ var next_link__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(next_link__WEBPACK_IMPORTED_MODULE_3__);
-var _jsxFileName = "/Users/marianapiazza/projects/terapartners.github.io/components/Box.js";
+var _jsxFileName = "/projects/terapartners/terapartners-website/components/Box.js";
 
 
 
@@ -132,7 +132,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react_flexbox_grid__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react-flexbox-grid */ "./node_modules/react-flexbox-grid/lib/index.js");
 /* harmony import */ var react_flexbox_grid__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(react_flexbox_grid__WEBPACK_IMPORTED_MODULE_1__);
 /* harmony import */ var _Box__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./Box */ "./components/Box.js");
-var _jsxFileName = "/Users/marianapiazza/projects/terapartners.github.io/components/BoxComponent.js";
+var _jsxFileName = "/projects/terapartners/terapartners-website/components/BoxComponent.js";
  // import styled from 'styled-components';
 
 
@@ -270,7 +270,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var styled_components__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! styled-components */ "./node_modules/styled-components/dist/styled-components.browser.esm.js");
 /* harmony import */ var react_animate_on_scroll__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! react-animate-on-scroll */ "./node_modules/react-animate-on-scroll/dist/scrollAnimation.min.js");
 /* harmony import */ var react_animate_on_scroll__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(react_animate_on_scroll__WEBPACK_IMPORTED_MODULE_2__);
-var _jsxFileName = "/Users/marianapiazza/projects/terapartners.github.io/components/Column.js";
+var _jsxFileName = "/projects/terapartners/terapartners-website/components/Column.js";
 
 
 
@@ -411,7 +411,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react_flexbox_grid__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react-flexbox-grid */ "./node_modules/react-flexbox-grid/lib/index.js");
 /* harmony import */ var react_flexbox_grid__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(react_flexbox_grid__WEBPACK_IMPORTED_MODULE_1__);
 /* harmony import */ var _Column__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./Column */ "./components/Column.js");
-var _jsxFileName = "/Users/marianapiazza/projects/terapartners.github.io/components/ColumnComponent.js";
+var _jsxFileName = "/projects/terapartners/terapartners-website/components/ColumnComponent.js";
 
 
 
@@ -447,7 +447,7 @@ function ColumnComponent(props) {
         padding: '0',
         marginBottom: '10px',
         display: 'flex',
-        alignItems: 'center',
+        alignItems: 'baseline',
         justifyContent: 'flex-start'
       },
       xs: 12,
@@ -491,7 +491,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
 /* harmony import */ var styled_components__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! styled-components */ "./node_modules/styled-components/dist/styled-components.browser.esm.js");
 /* harmony import */ var _Parallax__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./Parallax */ "./components/Parallax.js");
-var _jsxFileName = "/Users/marianapiazza/projects/terapartners.github.io/components/Divisor.js";
+var _jsxFileName = "/projects/terapartners/terapartners-website/components/Divisor.js";
 
 
 
@@ -548,7 +548,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var next_link__WEBPACK_IMPORTED_MODULE_4___default = /*#__PURE__*/__webpack_require__.n(next_link__WEBPACK_IMPORTED_MODULE_4__);
 /* harmony import */ var react_scroll__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! react-scroll */ "./node_modules/react-scroll/modules/index.js");
 /* harmony import */ var react_scroll__WEBPACK_IMPORTED_MODULE_5___default = /*#__PURE__*/__webpack_require__.n(react_scroll__WEBPACK_IMPORTED_MODULE_5__);
-var _jsxFileName = "/Users/marianapiazza/projects/terapartners.github.io/components/Footer.js";
+var _jsxFileName = "/projects/terapartners/terapartners-website/components/Footer.js";
 
 function _typeof(obj) { if (typeof Symbol === "function" && typeof Symbol.iterator === "symbol") { _typeof = function _typeof(obj) { return typeof obj; }; } else { _typeof = function _typeof(obj) { return obj && typeof Symbol === "function" && obj.constructor === Symbol && obj !== Symbol.prototype ? "symbol" : typeof obj; }; } return _typeof(obj); }
 
@@ -959,7 +959,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var animate_css_animate_min_css__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(animate_css_animate_min_css__WEBPACK_IMPORTED_MODULE_2__);
 /* harmony import */ var _TextComponent__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../TextComponent */ "./components/TextComponent.js");
 /* harmony import */ var _BoxComponent__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../BoxComponent */ "./components/BoxComponent.js");
-var _jsxFileName = "/Users/marianapiazza/projects/terapartners.github.io/components/Home/FirstSection.js";
+var _jsxFileName = "/projects/terapartners/terapartners-website/components/Home/FirstSection.js";
 
 
 
@@ -979,8 +979,8 @@ function FirstSection() {
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_TextComponent__WEBPACK_IMPORTED_MODULE_3__["default"], {
     title: "Who We Are",
-    subtitle: "Tera partners is a results-driven organisation that provides the highest level of expertise and advice in a large variety of sectors.",
-    text: "We are a boutique advisory firm specializing in cross-border mergers and acquisitions of innovative companies. With extensive deal-making experience, we pay a great deal of attention to details and leverage our high-quality relationships with CEOs, corporate development executives, and private equity firms worldwide to assist our clients in accelerating their growth and exploring strategic options in today\u2019s world, where technology changes in the blink of an eye. Organised in 4 Divisions: Mergers and Acquisitions, Restructuring, Consulting and Startups, the company operates globally providing services to mid-market to fortune 500 companies.",
+    subtitle: "Tera Partners is a results-driven organisation that provides the highest level of expertise and advice in a large variety of sectors.",
+    text: "We are a boutique advisory firm specializing in cross-border mergers and acquisitions of innovative companies. With extensive deal-making experience, we pay a great deal of attention to details and leverage our high-quality relationships with CEOs, corporate development executives, and private equity firms worldwide to assist our clients in accelerating their growth and exploring strategic options in today\u2019s world, where technology changes in the blink of an eye. Organised in 4 Divisions: Mergers and Acquisitions, Restructuring, Consulting and Startups, the company operates globally providing services to start-up, mid-market and global companies.",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 13
@@ -1020,7 +1020,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react_anime__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! react-anime */ "./node_modules/react-anime/dist/react-anime.js");
 /* harmony import */ var react_anime__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(react_anime__WEBPACK_IMPORTED_MODULE_2__);
 /* harmony import */ var _Parallax__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../Parallax */ "./components/Parallax.js");
-var _jsxFileName = "/Users/marianapiazza/projects/terapartners.github.io/components/Home/Hero.js";
+var _jsxFileName = "/projects/terapartners/terapartners-website/components/Home/Hero.js";
  // import ImageParallax from '../Home/ImageParallax';
 
 
@@ -1029,7 +1029,7 @@ var _jsxFileName = "/Users/marianapiazza/projects/terapartners.github.io/compone
 var TextWrapper = styled_components__WEBPACK_IMPORTED_MODULE_1__["default"].div.withConfig({
   displayName: "Hero__TextWrapper",
   componentId: "m66yis-0"
-})(["position:absolute;color:white;font-size:25px;line-height:40px;top:750px;left:156px;z-index:1;font-family:Rajdhani;"]);
+})(["position:absolute;color:white;font-size:25px;line-height:40px;top:700px;left:156px;z-index:1;font-family:Rajdhani;"]);
 
 function Hero() {
   return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
@@ -1068,7 +1068,7 @@ function Hero() {
       lineNumber: 31
     },
     __self: this
-  }, "we focussss on the details"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+  }, "we focus on the details"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     style: {
       display: ''
     },
@@ -1086,8 +1086,8 @@ function Hero() {
   }, "so you can focus on the big picture"))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_Parallax__WEBPACK_IMPORTED_MODULE_3__["default"], {
     parallaxHeight: "820px",
     width: "1800px",
-    marginTop: "450px",
-    src: "/static/hero.png",
+    marginTop: "550px",
+    src: "/static/hero1.jpg",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 41
@@ -1114,7 +1114,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var styled_components__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! styled-components */ "./node_modules/styled-components/dist/styled-components.browser.esm.js");
 /* harmony import */ var _TextComponent__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../TextComponent */ "./components/TextComponent.js");
 /* harmony import */ var _ColumnComponent__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../ColumnComponent */ "./components/ColumnComponent.js");
-var _jsxFileName = "/Users/marianapiazza/projects/terapartners.github.io/components/Home/SecondSection.js";
+var _jsxFileName = "/projects/terapartners/terapartners-website/components/Home/SecondSection.js";
 
 
 
@@ -1140,11 +1140,11 @@ function SecondSection() {
     __self: this
   }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_ColumnComponent__WEBPACK_IMPORTED_MODULE_3__["default"], {
     columns: 3,
-    srcs: ['/static/pedro.jpeg', '/static/pedro.jpeg', '/static/pedro.jpeg'],
-    overlaySrcs: ['/static/pedroover.png', '/static/pedroover.png', '/static/pedroover.png'],
-    names: ['David', 'Pedro', 'Fabiano'],
-    surnames: ['Oliveira', 'Cavalcante', 'Mansur'],
-    contents: ['Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec aliquam tristique ex vel luctus. Aenean rutrum pulvinar pulvinar. Donec sit amet tsem eu lacus accumsan hendrerit eu non justo. Proin a quam dignissim, vulputate velit id, porttitor ex. Nullam vitae urna vitae augue molestie euismod nec cursus erat. Cras vel sodales elit, vitae pellentesque ligula. Morbi ac purus eget lectus fermentum faucibus. Pellentesque mattis ex consequat ex tincidunt pulvinar.', 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec aliquam tristique ex vel luctus. Aenean rutrum pulvinar pulvinar. Donec sit amet tsem eu lacus accumsan hendrerit eu non justo. Proin a quam dignissim, vulputate velit id, porttitor ex. Nullam vitae urna vitae augue molestie euismod nec cursus erat. Cras vel sodales elit, vitae pellentesque ligula. Morbi ac purus eget lectus fermentum faucibus. Pellentesque mattis ex consequat ex tincidunt pulvinar.', 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec aliquam tristique ex vel luctus. Aenean rutrum pulvinar pulvinar. Donec sit amet tsem eu lacus accumsan hendrerit eu non justo. Proin a quam dignissim, vulputate velit id, porttitor ex. Nullam vitae urna vitae augue molestie euismod nec cursus erat. Cras vel sodales elit, vitae pellentesque ligula. Morbi ac purus eget lectus fermentum faucibus. Pellentesque mattis ex consequat ex tincidunt pulvinar.'],
+    srcs: ['/static/pedro.jpeg', '/static/placeholder.jpeg', '/static/placeholder.jpeg'],
+    overlaySrcs: ['/static/pedroover.png', '/static/placeholderover.png', '/static/placeholderover.png'],
+    names: ['Pedro', 'David', 'Fabiano'],
+    surnames: ['Cavalcante', 'Oliveira', 'Mansur'],
+    contents: ['Financial and tech entrepreneur with 15+ years experience in high technology and banking. Founded FINTTA and was a tech advisor to VYA, Routeasy and Estudando.com. BS in Computer Engineering (Poli-USP)', 'Executive and entrepreneur with 15+ years experience in banking, management consulting and financial advisory. Has held leadership positions at Suzano, Alix Partners, Olimpia Partners, Standard Bank, Banco Brasil Plural and Stern Stewart. MSc in Business (Stanford), MSc in Economics (Insper), BA in Business (USP), CFA charterholder.', 'Accomplished finance executive with 15+ years experience in banking, private equity, restructuring and financial advisory. Partner at Banco Brasil Plural responsible for the real estate sector, Co-founded SPF Investimentos and has held leadership positions at Matlin Patterson and Banco Itaú BBA. BA in Business (Insper, graduated summa cum laude).'],
     __source: {
       fileName: _jsxFileName,
       lineNumber: 16
@@ -1177,7 +1177,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var next_link__WEBPACK_IMPORTED_MODULE_4___default = /*#__PURE__*/__webpack_require__.n(next_link__WEBPACK_IMPORTED_MODULE_4__);
 /* harmony import */ var next_router__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! next/router */ "./node_modules/next/router.js");
 /* harmony import */ var next_router__WEBPACK_IMPORTED_MODULE_5___default = /*#__PURE__*/__webpack_require__.n(next_router__WEBPACK_IMPORTED_MODULE_5__);
-var _jsxFileName = "/Users/marianapiazza/projects/terapartners.github.io/components/Menu.js";
+var _jsxFileName = "/projects/terapartners/terapartners-website/components/Menu.js";
 
 function _typeof(obj) { if (typeof Symbol === "function" && typeof Symbol.iterator === "symbol") { _typeof = function _typeof(obj) { return typeof obj; }; } else { _typeof = function _typeof(obj) { return obj && typeof Symbol === "function" && obj.constructor === Symbol && obj !== Symbol.prototype ? "symbol" : typeof obj; }; } return _typeof(obj); }
 
@@ -1509,28 +1509,7 @@ function (_React$PureComponent) {
           lineNumber: 173
         },
         __self: this
-      }, "Startups"))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(Li, {
-        map: map,
-        number: 4,
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 176
-        },
-        __self: this
-      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(next_link__WEBPACK_IMPORTED_MODULE_4___default.a, {
-        href: "/contact",
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 177
-        },
-        __self: this
-      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(Button, {
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 178
-        },
-        __self: this
-      }, "Contact"))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(Hr, {
+      }, "Startups"))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(Hr, {
         location: currLocation,
         __source: {
           fileName: _jsxFileName,
@@ -1562,7 +1541,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var styled_components__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! styled-components */ "./node_modules/styled-components/dist/styled-components.browser.esm.js");
 /* harmony import */ var react_parallax__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! react-parallax */ "./node_modules/react-parallax/dist/index.js");
 /* harmony import */ var react_parallax__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(react_parallax__WEBPACK_IMPORTED_MODULE_2__);
-var _jsxFileName = "/Users/marianapiazza/projects/terapartners.github.io/components/Parallax.js";
+var _jsxFileName = "/projects/terapartners/terapartners-website/components/Parallax.js";
  // import ImageParallax from '../Home/ImageParallax';
 
 
@@ -1630,7 +1609,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react_flexbox_grid__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(react_flexbox_grid__WEBPACK_IMPORTED_MODULE_2__);
 /* harmony import */ var react_animate_on_scroll__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! react-animate-on-scroll */ "./node_modules/react-animate-on-scroll/dist/scrollAnimation.min.js");
 /* harmony import */ var react_animate_on_scroll__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(react_animate_on_scroll__WEBPACK_IMPORTED_MODULE_3__);
-var _jsxFileName = "/Users/marianapiazza/projects/terapartners.github.io/components/TextComponent.js";
+var _jsxFileName = "/projects/terapartners/terapartners-website/components/TextComponent.js";
 
 
 
@@ -27395,7 +27374,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _components_Menu__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ../components/Menu */ "./components/Menu.js");
 /* harmony import */ var animate_css_animate_min_css__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! animate.css/animate.min.css */ "./node_modules/animate.css/animate.min.css");
 /* harmony import */ var animate_css_animate_min_css__WEBPACK_IMPORTED_MODULE_9___default = /*#__PURE__*/__webpack_require__.n(animate_css_animate_min_css__WEBPACK_IMPORTED_MODULE_9__);
-var _jsxFileName = "/Users/marianapiazza/projects/terapartners.github.io/pages/index.js";
+var _jsxFileName = "/projects/terapartners/terapartners-website/pages/index.js";
 
 function _typeof(obj) { if (typeof Symbol === "function" && typeof Symbol.iterator === "symbol") { _typeof = function _typeof(obj) { return typeof obj; }; } else { _typeof = function _typeof(obj) { return obj && typeof Symbol === "function" && obj.constructor === Symbol && obj !== Symbol.prototype ? "symbol" : typeof obj; }; } return _typeof(obj); }
 
@@ -27500,7 +27479,7 @@ function (_React$Component) {
           lineNumber: 56
         },
         __self: this
-      }, "My page title"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("meta", {
+      }, "Tera Partners | Mergers & Acquisitions, Startup advisory firm in S\xE3o Paulo, Brazil"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("meta", {
         name: "viewport",
         content: "initial-scale=1.0, width=device-width",
         __source: {
