@@ -15,8 +15,8 @@ function SecondSection() {
       />
       <ColumnComponent
         columns={3}
-        srcs={['/static/pedro.jpeg', '/static/placeholder.jpeg', '/static/placeholder.jpeg']}
-        overlaySrcs={['/static/pedroover.png', '/static/placeholderover.png', '/static/placeholderover.png']}
+        srcs={['/static/pedromug.png', '/static/davidmug.png', '/static/fabianomug.png']}
+        overlaySrcs={['/static/pedromugover.png', '/static/davidmugover.png', '/static/fabianomugover.png']}
         names={['Pedro', 'David', 'Fabiano']}
         surnames={['Cavalcante', 'Oliveira', 'Mansur']}
         contents={[
