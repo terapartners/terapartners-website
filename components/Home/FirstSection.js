@@ -12,7 +12,7 @@ function FirstSection() {
     <Wrapper>
       <TextComponent
         title="Who We Are"
-        subtitle="Our approach to Mergers and Acquisitions leverage innovation, technology and personal availability."
+        subtitle="Tera provides senior independent advice and excellence in execution, always striving to maximize value creation to our clients."
         text="Tera Partners is an independent boutique advisory firm built as a partnership based on meritocracy. Our dynamic work environment, culture of candor and the challenging projects we embrace attract and retain the most talented professionals. Our clients’ trust is our most treasured resource, and we employ the best of our skills, global network and experience to deliver value creation. Innovation and technology is in our DNA and the highest standards of integrity and discretion are our guiding principles. At Tera, success is measured only by the log-term success of our clients."
       />
       <BoxComponent

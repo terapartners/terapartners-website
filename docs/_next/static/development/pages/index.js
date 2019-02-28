@@ -979,7 +979,7 @@ function FirstSection() {
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_TextComponent__WEBPACK_IMPORTED_MODULE_3__["default"], {
     title: "Who We Are",
-    subtitle: "Our approach to Mergers and Acquisitions leverage innovation, technology and personal availability.",
+    subtitle: "Tera provides senior independent advice and excellence in execution, always striving to maximize value creation to our clients.",
     text: "We are a boutique advisory firm specializing in cross-border mergers and acquisitions of innovative companies. With extensive deal-making experience, we pay a great deal of attention to details and leverage our high-quality relationships with CEOs, corporate development executives, and private equity firms worldwide to assist our clients in accelerating their growth and exploring strategic options in today\u2019s world, where technology changes in the blink of an eye. Organised in 4 Divisions: Mergers and Acquisitions, Restructuring, Consulting and Startups, the company operates globally providing services to start-up, mid-market and global companies.",
     __source: {
       fileName: _jsxFileName,
@@ -23007,7 +23007,7 @@ exports.default = {
   easeInOutQuad: function easeInOutQuad(x) {
     return x < .5 ? 2 * x * x : -1 + (4 - 2 * x) * x;
   },
-  // accelerating from zero velocity 
+  // accelerating from zero velocity
   easeInCubic: function easeInCubic(x) {
     return x * x * x;
   },
@@ -23015,15 +23015,15 @@ exports.default = {
   easeOutCubic: function easeOutCubic(x) {
     return --x * x * x + 1;
   },
-  // acceleration until halfway, then deceleration 
+  // acceleration until halfway, then deceleration
   easeInOutCubic: function easeInOutCubic(x) {
     return x < .5 ? 4 * x * x * x : (x - 1) * (2 * x - 2) * (2 * x - 2) + 1;
   },
-  // accelerating from zero velocity 
+  // accelerating from zero velocity
   easeInQuart: function easeInQuart(x) {
     return x * x * x * x;
   },
-  // decelerating to zero velocity 
+  // decelerating to zero velocity
   easeOutQuart: function easeOutQuart(x) {
     return 1 - --x * x * x * x;
   },
@@ -23039,7 +23039,7 @@ exports.default = {
   easeOutQuint: function easeOutQuint(x) {
     return 1 + --x * x * x * x * x;
   },
-  // acceleration until halfway, then deceleration 
+  // acceleration until halfway, then deceleration
   easeInOutQuint: function easeInOutQuint(x) {
     return x < .5 ? 16 * x * x * x * x * x : 1 + 16 * --x * x * x * x * x;
   }
@@ -23932,7 +23932,7 @@ __webpack_require__.r(__webpack_exports__);
 
 
 
-// 
+//
 
 var interleave = (function (strings, interpolations) {
   var result = [strings[0]];
@@ -24024,32 +24024,32 @@ var possibleConstructorReturn = function (self, call) {
   return call && (typeof call === "object" || typeof call === "function") ? call : self;
 };
 
-// 
+//
 var isPlainObject = (function (x) {
   return (typeof x === 'undefined' ? 'undefined' : _typeof(x)) === 'object' && x.constructor === Object;
 });
 
-// 
+//
 var EMPTY_ARRAY = Object.freeze([]);
 var EMPTY_OBJECT = Object.freeze({});
 
-// 
+//
 function isFunction(test) {
   return typeof test === 'function';
 }
 
-// 
+//
 
 function getComponentName(target) {
   return ( true ? typeof target === 'string' && target : undefined) || target.displayName || target.name || 'Component';
 }
 
-// 
+//
 function isStyledComponent(target) {
   return target && typeof target.styledComponentId === 'string';
 }
 
-// 
+//
 
 var SC_ATTR = typeof process !== 'undefined' && process.env.SC_ATTR || 'data-styled';
 
@@ -24064,7 +24064,7 @@ var DISABLE_SPEEDY = typeof SC_DISABLE_SPEEDY === 'boolean' && SC_DISABLE_SPEEDY
 // Shared empty execution context when generating static styles
 var STATIC_EXECUTION_CONTEXT = {};
 
-// 
+//
 
 
 /**
@@ -24128,7 +24128,7 @@ var StyledComponentsError = function (_Error) {
   return StyledComponentsError;
 }(Error);
 
-// 
+//
 var SC_COMPONENT_ID = /^[^\S\n]*?\/\* sc-component-id:\s*(\S+)\s+\*\//gm;
 
 var extractComps = (function (maybeCSS) {
@@ -24148,7 +24148,7 @@ var extractComps = (function (maybeCSS) {
   });
 });
 
-// 
+//
 
 var COMMENT_REGEX = /^\s*\/\/.*$/gm;
 
@@ -24249,14 +24249,14 @@ function stringifyRules(rules, selector, prefix) {
   return stylis(prefix || !selector ? '' : selector, cssStr);
 }
 
-// 
+//
 /* eslint-disable camelcase, no-undef */
 
 var getNonce = (function () {
   return  true ? __webpack_require__.nc : undefined;
 });
 
-// 
+//
 /* These are helpers for the StyleTags to keep track of the injected
  * rule names for each (component) ID that they're keeping track of.
  * They're crucial for detecting whether a name has already been
@@ -24305,7 +24305,7 @@ var cloneNames = function cloneNames(names) {
   return clone;
 };
 
-// 
+//
 
 /* These are helpers that deal with the insertRule (aka speedy) API
  * They are used in the StyleTags and specifically the speedy tag
@@ -24354,7 +24354,7 @@ var deleteRules = function deleteRules(sheet, removalIndex, size) {
   }
 };
 
-// 
+//
 
 /* this marker separates component styles and is important for rehydration */
 var makeTextMarker = function makeTextMarker(id) {
@@ -24744,7 +24744,7 @@ var rehydrate = function rehydrate(tag, els, extracted) {
   }
 };
 
-// 
+//
 
 var SPLIT_REGEX = /\s+/;
 
@@ -25076,7 +25076,7 @@ var StyleSheet = function () {
   return StyleSheet;
 }();
 
-// 
+//
 
 var Keyframes = function () {
   function Keyframes(name, rules) {
@@ -25107,7 +25107,7 @@ var Keyframes = function () {
   return Keyframes;
 }();
 
-// 
+//
 
 /**
  * inlined version of
@@ -25137,7 +25137,7 @@ function hyphenateStyleName(string) {
   return string.replace(uppercasePattern, '-$1').toLowerCase().replace(msPattern, '-ms-');
 }
 
-// 
+//
 
 // Taken from https://github.com/facebook/react/blob/b87aabdfe1b7461e7331abb3601d9e6bb27544bc/packages/react-dom/src/shared/dangerousStyleValue.js
 function addUnitIfNeeded(name, value) {
@@ -25154,7 +25154,7 @@ function addUnitIfNeeded(name, value) {
   return String(value).trim();
 }
 
-// 
+//
 
 /**
  * It's falsish not falsy because 0 is allowed.
@@ -25228,7 +25228,7 @@ function flatten(chunk, executionContext, styleSheet) {
   return isPlainObject(chunk) ? objToCss(chunk) : chunk.toString();
 }
 
-// 
+//
 
 function css(styles) {
   for (var _len = arguments.length, interpolations = Array(_len > 1 ? _len - 1 : 0), _key = 1; _key < _len; _key++) {
@@ -25244,7 +25244,7 @@ function css(styles) {
   return flatten(interleave(styles, interpolations));
 }
 
-// 
+//
 
 function constructWithOptions(componentConstructor, tag) {
   var options = arguments.length > 2 && arguments[2] !== undefined ? arguments[2] : EMPTY_OBJECT;
@@ -25274,7 +25274,7 @@ function constructWithOptions(componentConstructor, tag) {
   return templateFunction;
 }
 
-// 
+//
 // Source: https://github.com/garycourt/murmurhash-js/blob/master/murmurhash2_gc.js
 function murmurhash(c) {
   for (var e = c.length | 0, a = e | 0, d = 0, b; e >= 4;) {
@@ -25293,7 +25293,7 @@ function murmurhash(c) {
   return (a ^ a >>> 15) >>> 0;
 }
 
-// 
+//
 /* eslint-disable no-bitwise */
 
 /* This is the "capacity" of our alphabet i.e. 2x26 for all letters plus their capitalised
@@ -25318,7 +25318,7 @@ function generateAlphabeticName(code) {
   return getAlphabeticChar(x % charsLength) + name;
 }
 
-// 
+//
 
 function hasFunctionObjectKey(obj) {
   // eslint-disable-next-line guard-for-in, no-restricted-syntax
@@ -25352,7 +25352,7 @@ function isStaticRules(rules, attrs) {
   return true;
 }
 
-// 
+//
 
 var isHMREnabled = "development" !== 'production' && typeof module !== 'undefined' && module.hot;
 
@@ -25412,7 +25412,7 @@ var ComponentStyle = function () {
   return ComponentStyle;
 }();
 
-// 
+//
 
 var LIMIT = 200;
 
@@ -25434,7 +25434,7 @@ var createWarnTooManyClasses = (function (displayName) {
   };
 });
 
-// 
+//
 
 var determineTheme = (function (props, fallbackTheme) {
   var defaultProps = arguments.length > 2 && arguments[2] !== undefined ? arguments[2] : EMPTY_OBJECT;
@@ -25450,7 +25450,7 @@ var determineTheme = (function (props, fallbackTheme) {
   return theme;
 });
 
-// 
+//
 var escapeRegex = /[[\].#*$><+~=|^:(),"'`-]+/g;
 var dashesAtEnds = /(^-|-$)/g;
 
@@ -25467,13 +25467,13 @@ function escape(str) {
   .replace(dashesAtEnds, '');
 }
 
-// 
+//
 
 function isTag(target) {
   return typeof target === 'string' && ( true ? target.charAt(0) === target.charAt(0).toLowerCase() : undefined);
 }
 
-// 
+//
 
 function generateDisplayName(target) {
   // $FlowFixMe
@@ -25569,12 +25569,12 @@ function hoistNonReactStatics(targetComponent, sourceComponent, blacklist) {
   return targetComponent;
 }
 
-// 
+//
 function isDerivedReactComponent(fn) {
   return !!(fn && fn.prototype && fn.prototype.isReactComponent);
 }
 
-// 
+//
 // Helper to call a given function, only once
 var once = (function (cb) {
   var called = false;
@@ -25587,7 +25587,7 @@ var once = (function (cb) {
   };
 });
 
-// 
+//
 
 var ThemeContext = Object(react__WEBPACK_IMPORTED_MODULE_2__["createContext"])();
 
@@ -25661,7 +25661,7 @@ var ThemeProvider = function (_Component) {
   return ThemeProvider;
 }(react__WEBPACK_IMPORTED_MODULE_2__["Component"]);
 
-// 
+//
 
 var ServerStyleSheet = function () {
   function ServerStyleSheet() {
@@ -25761,7 +25761,7 @@ var ServerStyleSheet = function () {
   return ServerStyleSheet;
 }();
 
-// 
+//
 
 var StyleSheetContext = Object(react__WEBPACK_IMPORTED_MODULE_2__["createContext"])();
 
@@ -25813,7 +25813,7 @@ var StyleSheetManager = function (_Component) {
   })
 } : undefined;
 
-// 
+//
 
 var didWarnAboutClassNameUsage = new Set();
 
@@ -25866,7 +25866,7 @@ var classNameUsageCheckInjector = (function (target) {
   };
 });
 
-// 
+//
 
 var identifiers = {};
 
@@ -26165,7 +26165,7 @@ function createStyledComponent(target, options, rules) {
   return WrappedStyledComponent;
 }
 
-// 
+//
 // Thanks to ReactDOMFactories for this handy list!
 
 var domElements = ['a', 'abbr', 'address', 'area', 'article', 'aside', 'audio', 'b', 'base', 'bdi', 'bdo', 'big', 'blockquote', 'body', 'br', 'button', 'canvas', 'caption', 'cite', 'code', 'col', 'colgroup', 'data', 'datalist', 'dd', 'del', 'details', 'dfn', 'dialog', 'div', 'dl', 'dt', 'em', 'embed', 'fieldset', 'figcaption', 'figure', 'footer', 'form', 'h1', 'h2', 'h3', 'h4', 'h5', 'h6', 'head', 'header', 'hgroup', 'hr', 'html', 'i', 'iframe', 'img', 'input', 'ins', 'kbd', 'keygen', 'label', 'legend', 'li', 'link', 'main', 'map', 'mark', 'marquee', 'menu', 'menuitem', 'meta', 'meter', 'nav', 'noscript', 'object', 'ol', 'optgroup', 'option', 'output', 'p', 'param', 'picture', 'pre', 'progress', 'q', 'rp', 'rt', 'ruby', 's', 'samp', 'script', 'section', 'select', 'small', 'source', 'span', 'strong', 'style', 'sub', 'summary', 'sup', 'table', 'tbody', 'td', 'textarea', 'tfoot', 'th', 'thead', 'time', 'title', 'tr', 'track', 'u', 'ul', 'var', 'video', 'wbr',
@@ -26173,7 +26173,7 @@ var domElements = ['a', 'abbr', 'address', 'area', 'article', 'aside', 'audio', 
 // SVG
 'circle', 'clipPath', 'defs', 'ellipse', 'foreignObject', 'g', 'image', 'line', 'linearGradient', 'mask', 'path', 'pattern', 'polygon', 'polyline', 'radialGradient', 'rect', 'stop', 'svg', 'text', 'tspan'];
 
-// 
+//
 
 var styled = function styled(tag) {
   return constructWithOptions(createStyledComponent, tag);
@@ -26184,7 +26184,7 @@ domElements.forEach(function (domElement) {
   styled[domElement] = styled(domElement);
 });
 
-// 
+//
 
 var GlobalStyle = function () {
   function GlobalStyle(rules, componentId) {
@@ -26225,7 +26225,7 @@ var GlobalStyle = function () {
   return GlobalStyle;
 }();
 
-// 
+//
 
 // place our cache into shared context so it'll persist between HMRs
 if (IS_BROWSER) {
@@ -26340,7 +26340,7 @@ function createGlobalStyle(strings) {
   return GlobalStyleComponent;
 }
 
-// 
+//
 
 var replaceWhitespace = function replaceWhitespace(str) {
   return str.replace(/\s|\\n/g, '');
@@ -26363,7 +26363,7 @@ function keyframes(strings) {
   return new Keyframes(name, stringifyRules(rules, name, '@keyframes'));
 }
 
-// 
+//
 
 var withTheme = (function (Component$$1) {
   var WithTheme = react__WEBPACK_IMPORTED_MODULE_2___default.a.forwardRef(function (props, ref) {
@@ -26393,14 +26393,14 @@ var withTheme = (function (Component$$1) {
   return WithTheme;
 });
 
-// 
+//
 
 /* eslint-disable */
 var __DO_NOT_USE_OR_YOU_WILL_BE_HAUNTED_BY_SPOOKY_GHOSTS = {
   StyleSheet: StyleSheet
 };
 
-// 
+//
 
 /* Warning if you've imported this file on React Native */
 if ("development" !== 'production' && typeof navigator !== 'undefined' && navigator.product === 'ReactNative') {
@@ -27579,7 +27579,7 @@ function (_React$Component) {
         }
       }
     })(typeof __webpack_exports__ !== 'undefined' ? __webpack_exports__.default : (module.exports.default || module.exports), "/")
-  
+
 /* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./../node_modules/webpack/buildin/harmony-module.js */ "./node_modules/webpack/buildin/harmony-module.js")(module)))
 
 /***/ }),
