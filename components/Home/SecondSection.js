@@ -11,7 +11,7 @@ function SecondSection() {
   return (
     <Wrapper>
       <TextComponent
-        title="Meet Our Leaders"
+        title="Meet Our Partners"
       />
       <ColumnComponent
         columns={3}
