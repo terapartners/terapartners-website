@@ -1068,7 +1068,7 @@ function Hero() {
       lineNumber: 31
     },
     __self: this
-  }, "we focus on the details"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+  }, "whatever your challenge might be"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     style: {
       display: ''
     },
@@ -1083,7 +1083,7 @@ function Hero() {
       lineNumber: 33
     },
     __self: this
-  }, "so you can focus on the big picture"))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_Parallax__WEBPACK_IMPORTED_MODULE_3__["default"], {
+  }, "we have the inspiration, hard work and optimism to make it happen"))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_Parallax__WEBPACK_IMPORTED_MODULE_3__["default"], {
     parallaxHeight: "820px",
     width: "1800px",
     marginTop: "550px",

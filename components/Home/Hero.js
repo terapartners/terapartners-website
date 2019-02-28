@@ -36,9 +36,9 @@ function Hero(props) {
           delay={(el, i) => 2000 + 500 * i}
           key={11 + Date.now()}
         >
-          <span>we focus on the details</span>
+          <span>whatever your challenge might be</span>
           <div style={{ display: '' }} />
-          <span>so you can focus on the big picture</span>
+          <span>we have the inspiration, hard work and optimism to make it happen</span>
         </Anime>
       </TextWrapper>
       {/* <FullscreenImage
