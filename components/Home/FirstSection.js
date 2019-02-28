@@ -13,11 +13,7 @@ function FirstSection() {
       <TextComponent
         title="Who We Are"
         subtitle="Tera Partners is a results-driven organisation that provides the highest level of expertise and advice in a large variety of sectors."
-        text="Tera Partners is an independent boutique advisory firm built as a partnership based on meritocracy. Our dynamic work environment, culture of candor and the challenging projects we embrace attract and retain the most talented professionals.
-
-Our clients’ trust is our most treasured resource, and we employ the best of our skills, global network and experience to deliver value creation. Innovation and technology is in our DNA and the highest standards of integrity and discretion are our guiding principles.
-
-At Tera, success is measured only by the log-term success of our clients."
+        text="We are a boutique advisory firm specializing in cross-border mergers and acquisitions of innovative companies. With extensive deal-making experience, we pay a great deal of attention to details and leverage our high-quality relationships with CEOs, corporate development executives, and private equity firms worldwide to assist our clients in accelerating their growth and exploring strategic options in today’s world, where technology changes in the blink of an eye. Organised in 4 Divisions: Mergers and Acquisitions, Restructuring, Consulting and Startups, the company operates globally providing services to start-up, mid-market and global companies."
       />
       <BoxComponent
         columns={2}
