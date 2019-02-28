@@ -12,7 +12,7 @@ function FirstSection() {
     <Wrapper>
       <TextComponent
         title="Who We Are"
-        subtitle="Tera Partners is a results-driven organisation that provides the highest level of expertise and advice in a large variety of sectors."
+        subtitle="Our approach to Mergers and Acquisitions leverage innovation, technology and personal availability."
         text="We are a boutique advisory firm specializing in cross-border mergers and acquisitions of innovative companies. With extensive deal-making experience, we pay a great deal of attention to details and leverage our high-quality relationships with CEOs, corporate development executives, and private equity firms worldwide to assist our clients in accelerating their growth and exploring strategic options in today’s world, where technology changes in the blink of an eye. Organised in 4 Divisions: Mergers and Acquisitions, Restructuring, Consulting and Startups, the company operates globally providing services to start-up, mid-market and global companies."
       />
       <BoxComponent
