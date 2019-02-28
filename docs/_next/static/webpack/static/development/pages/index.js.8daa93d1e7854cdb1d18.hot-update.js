@@ -36,7 +36,7 @@ function FirstSection() {
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_TextComponent__WEBPACK_IMPORTED_MODULE_3__["default"], {
     title: "Who We Are",
-    subtitle: "Tera provides senior independent advice and excellence in execution, always striving to maximize value creation to our clients.",
+    subtitle: "Senior independent advice and excellence in execution, always striving to maximize value creation to our clients.",
     text: "We are a boutique advisory firm specializing in cross-border mergers and acquisitions of innovative companies. With extensive deal-making experience, we pay a great deal of attention to details and leverage our high-quality relationships with CEOs, corporate development executives, and private equity firms worldwide to assist our clients in accelerating their growth and exploring strategic options in today\u2019s world, where technology changes in the blink of an eye. Organised in 4 Divisions: Mergers and Acquisitions, Restructuring, Consulting and Startups, the company operates globally providing services to start-up, mid-market and global companies.",
     __source: {
       fileName: _jsxFileName,
