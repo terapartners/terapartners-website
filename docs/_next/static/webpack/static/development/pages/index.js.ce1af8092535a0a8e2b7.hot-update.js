@@ -32,7 +32,7 @@ function SecondSection() {
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_TextComponent__WEBPACK_IMPORTED_MODULE_2__["default"], {
-    title: "Meet Our Leaders",
+    title: "Meet Our Partners",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 13
