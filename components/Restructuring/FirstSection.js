@@ -11,8 +11,8 @@ function FirstSection(/* props */) {
     <Wrapper>
       <TextComponent
         title="Restructuring"
-        subtitle="We are there just when you need it."
-        text="We are a boutique advisory firm specializing in cross-border mergers and acquisitions of innovative companies. With extensive deal-making experience, we pay a great deal of attention to details and leverage our high-quality relationships with CEOs, corporate development executives, and private equity firms worldwide to assist our clients in accelerating their growth and exploring strategic options in today’s world, where technology changes in the blink of an eye. Organised in 4 Divisions: Mergers and Acquisitions, Restructuring, Consulting and Startups, the company operates globally providing services to mid-market to fortune 500 companies."
+        subtitle="We have the expertise to help companies in the search of optimal capital structure."
+        text="Our highly skilled and senior team advises companies with sub-optimal capital structure both in the renegotiation of debts’ terms and conditions and also in the search for equity and mezzanine investors. Tera restructuring advisory always contemplates debt and equity profile analysis, construction and analysis of scenarios, planning and negotiation. We are also ready to help our clients in developing extra-judicial or judicial (Chapter 11) recovery plans, always looking not only for a viable alternative for creditors, but also for the alternative that maximizes shareholder’s value."
       />
     </Wrapper>
   );
