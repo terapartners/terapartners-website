@@ -12,7 +12,7 @@ function FirstSection(/* props */) {
       <TextComponent
         title="Mergers and Acquisitions"
         subtitle="Our approach to Mergers and Acquisitions leverage innovation, technology and personal availability."
-        text="We are a boutique advisory firm specializing in cross-border mergers and acquisitions of innovative companies. With extensive deal-making experience, we pay a great deal of attention to details and leverage our high-quality relationships with CEOs, corporate development executives, and private equity firms worldwide to assist our clients in accelerating their growth and exploring strategic options in today’s world, where technology changes in the blink of an eye. Organised in 4 Divisions: Mergers and Acquisitions, Restructuring, Consulting and Startups, the company operates globally providing services to mid-market to fortune 500 companies."
+        text="From origination to execution, Tera employs our senior partners experienced judgement to deliver the best advice. Our hands-on approach and commitment to our clients needs and expectations deliver the best results. Value is always created to our clients and that is our only aspiration."
       />
     </Wrapper>
   );
