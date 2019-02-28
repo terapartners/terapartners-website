@@ -18,7 +18,7 @@ function SecondSection() {
         srcs={['/static/davidmug.png', '/static/fabianomug.png', '/static/pedromug.png']}
         overlaySrcs={['/static/davidmugover.png', '/static/fabianomugover.png', '/static/pedromugover.png']}
         names={['David', 'Fabiano', 'Pedro']}
-        surnames={['Cavalcante', 'Oliveira', 'Mansur']}
+        surnames={['Oliveira', 'Mansur', 'Cavalcante']}
         contents={[
           'Executive and entrepreneur with 15+ years experience in banking, management consulting and financial advisory. Has held leadership positions at Suzano, Alix Partners, Olimpia Partners, Standard Bank, Banco Brasil Plural and Stern Stewart. MSc in Business (Stanford), MSc in Economics (Insper), BA in Business (USP), CFA charterholder.',
           'Accomplished finance executive with 15+ years experience in banking, private equity, restructuring and financial advisory. Partner at Banco Brasil Plural responsible for the real estate sector, Co-founded SPF Investimentos and has held leadership positions at Matlin Patterson and Banco Itaú BBA. BA in Business (Insper, graduated summa cum laude).',
