@@ -35,7 +35,7 @@ function Hero(/* props */) {
       <Parallax
         parallaxHeight="820px"
         width="1800px"
-        marginTop="500px"
+        marginTop="464px"
         marginLeft="600px"
         src="/static/hero4.jpg"
       />

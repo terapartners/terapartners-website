@@ -60,7 +60,7 @@ export default class extends React.Component {
         </Head>
         <GlobalStyle />
         <div>
-          <Menu navigate={this.navigate} color={'white'}/>
+          <Menu navigate={this.navigate} color="white" />
           <Hero />
           <FirstSection />
           <Divisor

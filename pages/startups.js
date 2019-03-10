@@ -37,7 +37,7 @@ export class Startups extends React.PureComponent {
         </Head>
         <GlobalStyle />
         <div>
-          <Menu navigate={this.navigate} color={'white'}/>
+          <Menu navigate={this.navigate} color="white" />
           <Hero />
           <FirstSection />
           <Divisor

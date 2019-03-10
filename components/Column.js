@@ -95,13 +95,13 @@ export default function Column(props) {
   const {
     width, height, src, overlaySrc, name, surname, content,
   } = props;
-
   return (
     <ScrollAnimation style={{ position: 'relative' }} animateOnce animateIn="fadeIn">
       {src
         && (
         <ImgWrapper width={width} height={height}>
           <Img src={src} />
+          {src}
           <Overlay>
             {overlaySrc && <Img src={overlaySrc} />}
           </Overlay>

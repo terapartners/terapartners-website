@@ -23,7 +23,7 @@ const TextWrapper = styled.div`
   }
 `;
 
-function Hero(props) {
+function Hero() {
   return (
     <div style={{ height: '100%' }}>
       <TextWrapper>

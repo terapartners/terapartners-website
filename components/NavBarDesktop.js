@@ -1,8 +1,8 @@
 import React from 'react';
 // import ImageParallax from '../Home/ImageParallax';
 import styled from 'styled-components';
-import { Grid, Row, Col } from 'react-flexbox-grid';
-import Anime from 'react-anime';
+import { Row } from 'react-flexbox-grid';
+// import Anime from 'react-anime';
 import { withRouter } from 'next/router';
 import Link from 'next/link';
 
@@ -22,8 +22,8 @@ const Li = styled.li`
   display: inline-block;
   text-align: center;
   &:hover ~ hr{
-    margin-left: ${props => props.map[props.number].begin}px;
-    width: ${props => () => props.map[props.number].width}px;
+    margin-left: ${props => props.left}px;
+    width: ${props => () => props.width}px;
   }
 
   &:hover > a{
@@ -49,14 +49,13 @@ const Button = styled.a`
 
 const Hr = styled.hr`
   height: .10rem;
-  margin-left: ${props => (props.location ? props.location.begin : '')}px;
-  width: ${props => (props.location ? props.location.width : '')}px;
+  margin-left: ${props => (props.left ? props.left : 0)}px;
+  width: ${props => (props.width ? props.width : 0)}px;
   background: #005f9e;
   border: none;
   transition: .3s ease-in-out;
   margin-top: 0;
 `;
-
 
 
 class NavBarDesktop extends React.PureComponent {
@@ -65,86 +64,102 @@ class NavBarDesktop extends React.PureComponent {
     this.state = {
       location: props.router.pathname,
       color: props.color,
+      width: [],
+      left: [],
     };
-  }
-
-  listenScrollEvent = (e) => {
-    if (window.scrollY > 0) {
-      this.setState({color: '#828282'})
-    } else {
-      this.setState({color: this.props.color})
-    }
+    this.map = [{
+      url: '/',
+      ref: React.createRef(),
+    }, {
+      url: '/mea',
+      ref: React.createRef(),
+    }, {
+      url: '/restructuring',
+      ref: React.createRef(),
+    }, {
+      url: '/startups',
+      ref: React.createRef(),
+    }, {
+      url: '/consulting',
+      ref: React.createRef(),
+    }, {
+      url: '/contact',
+      ref: React.createRef(),
+    }];
   }
 
   componentDidMount() {
-    window.addEventListener('scroll', this.listenScrollEvent)
+    window.addEventListener('scroll', this.listenScrollEvent);
+    this.updateWidth();
+    window.addEventListener('resize', this.updateWidth);
+  }
+
+  componentWillUnmount() {
+    window.removeEventListener('scroll', this.listenScrollEvent);
+    window.removeEventListener('resize', this.updateWidth);
+  }
+
+  listenScrollEvent = () => {
+    const { color } = this.props;
+    if (window.scrollY > 0) {
+      this.setState({ color: '#828282' });
+    } else {
+      this.setState({ color });
+    }
+  }
+
+  updateWidth = () => {
+    const width = this.map.map(({ ref }) => ref.current && ref.current.getBoundingClientRect().width);
+    const left = width.map((wi, idx) => width.filter((a, i) => i < idx).reduce((acc, w) => acc + w, 0));
+    this.setState({
+      width,
+      left,
+    });
   }
 
   render() {
-    const map = [{
-      url: '/',
-      begin: 0,
-      width: 103.8,
-    }, {
-      url: '/mea',
-      begin: 103.8,
-      width: 55.6,
-    }, {
-      url: '/restructuring',
-      begin: 159.4,
-      width: 120.7,
-    }, {
-      url: '/startups',
-      begin: 280.1,
-      width: 87.5,
-    }, {
-      url: '/consulting',
-      begin: 367.6,
-      width: 100.61,
-    }, {
-      url: '/contact',
-      begin: 468.21,
-      width: 80.2,
-    }];
-
-    const { location } = this.state;
-    const currLocation = map.filter(m => m.url === location)[0];
+    const {
+      width, left, color, location,
+    } = this.state;
+    const idx = this.map.map((i, x) => ({ ...i, x })).filter(({ url }) => url === location).map(({ x }) => x)[0];
+    const barWidth = width[idx] || 0;
+    const barLeft = left[idx] || 0;
     return (
       <Desktop>
         <Row style={{ height: '100%', width: '100%', justifyContent: 'flex-end' }}>
           <nav>
             <ul>
-                <Li map={map} number={0}>
-                  <Link href="/">
-                    <Button color={this.state.color}>Who we are</Button>
-                  </Link>
-                </Li>
-                <Li map={map} number={1}>
-                  <Link href="/mea">
-                    <Button color={this.state.color}>M&A</Button>
-                  </Link>
-                </Li>
-                <Li map={map} number={2}>
-                  <Link href="/restructuring">
-                    <Button color={this.state.color}>Restructuring</Button>
-                  </Link>
-                </Li>
-                <Li map={map} number={3}>
-                  <Link href="/startups">
-                    <Button color={this.state.color}>Startups</Button>
-                  </Link>
-                </Li>
-                <Li map={map} number={4}>
-                  <Link href="/consulting">
-                    <Button color={this.state.color}>Consulting</Button>
-                  </Link>
-                </Li>
-                {/* <Li map={map} number={5}>
+              <Li {...this.map[0]} left={left[0]} width={width[0]}>
+                <Link href="/">
+                  <Button color={color}>Who we are</Button>
+                </Link>
+              </Li>
+              <Li {...this.map[1]} left={left[1]} width={width[1]}>
+                <Link href="/mea">
+                  <Button color={color}>M&A</Button>
+                </Link>
+              </Li>
+              <Li {...this.map[2]} left={left[2]} width={width[2]}>
+                <Link href="/restructuring">
+                  <Button color={color}>Restructuring</Button>
+                </Link>
+              </Li>
+              <Li {...this.map[3]} left={left[3]} width={width[3]}>
+                <Link href="/startups">
+                  <Button color={color}>Startups</Button>
+                </Link>
+              </Li>
+              <Li {...this.map[4]} left={left[4]} width={width[4]}>
+                <Link href="/consulting">
+                  <Button color={color}>Consulting</Button>
+                </Link>
+              </Li>
+              {/* <Li {...this.map[5]}>
                   <Link href="/contact">
-                    <Button color={this.state.color}>Contact</Button>
+                    <Button color={color}>Contact</Button>
                   </Link>
                 </Li> */}
-                <Hr location={currLocation} />
+              <Hr width={barWidth} left={barLeft} />
             </ul>
           </nav>
         </Row>

@@ -4,7 +4,7 @@ import { createGlobalStyle } from 'styled-components';
 
 import Hero from '../components/Consulting/Hero';
 import FirstSection from '../components/Consulting/FirstSection';
-import SecondSection from '../components/Consulting/SecondSection';
+// import SecondSection from '../components/Consulting/SecondSection';
 
 import Divisor from '../components/Divisor';
 import Footer from '../components/Footer';
@@ -36,7 +36,7 @@ export class Consulting extends React.PureComponent {
         </Head>
         <GlobalStyle />
         <div>
-          <Menu navigate={this.navigate} color={'#333'}/>
+          <Menu navigate={this.navigate} color="#333" />
           <Hero />
           <FirstSection />
           <Divisor
@@ -45,7 +45,7 @@ export class Consulting extends React.PureComponent {
             marginTop="300px"
             src="/static/hero5.jpg"
           />
-          <SecondSection />
+          {/* <SecondSection /> */}
           <Footer />
           <div />
         </div>

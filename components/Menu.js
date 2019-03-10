@@ -3,9 +3,9 @@ import React from 'react';
 import styled from 'styled-components';
 import { Grid, Row, Col } from 'react-flexbox-grid';
 import { withRouter } from 'next/router';
-import Logo from '../components/Logo'
-import NavBarMobile from '../components/NavBarMobile'
-import NavBarDesktop from '../components/NavBarDesktop'
+import Logo from './Logo';
+import NavBarMobile from './NavBarMobile';
+import NavBarDesktop from './NavBarDesktop';
 
 const BackgroundFixed = styled.div`
   position: fixed;
@@ -22,46 +22,48 @@ const BackgroundFixed = styled.div`
 
 
 class Menu extends React.PureComponent {
-  constructor(props) {
+  constructor() {
     super();
     this.state = {
-      location: props.router.pathname,
-      color: 'transparent'
+      // location: props.router.pathname,
+      backgroundColor: 'transparent',
     };
   }
 
-  listenScrollEvent = (e) => {
-    if (window.scrollY > 0) {
-      this.setState({color: 'white'})
-    } else {
-      this.setState({color: 'transparent'})
-    }
-  }
-
   componentDidMount() {
-    window.addEventListener('scroll', this.listenScrollEvent)
+    window.addEventListener('scroll', this.listenScrollEvent);
   }
 
-  componentDidUpdate(prevProps) {
-    const { router } = this.props;
-    if (router.pathname !== prevProps.router.pathname) {
-      this.setState({ // eslint-disable-line react/no-did-update-set-state
-        location: router.pathname,
-      });
+  // componentDidUpdate(prevProps) {
+  //   const { router } = this.props;
+  //   if (router.pathname !== prevProps.router.pathname) {
+  //     this.setState({ // eslint-disable-line react/no-did-update-set-state
+  //       location: router.pathname,
+  //     });
+  //   }
+  // }
+
+  listenScrollEvent = () => {
+    if (window.scrollY > 0) {
+      this.setState({ backgroundColor: 'white' });
+    } else {
+      this.setState({ backgroundColor: 'transparent' });
     }
   }
 
   render() {
+    const { backgroundColor } = this.state;
+    const { color, location } = this.props;
     return (
-      <BackgroundFixed color={this.state.color}>
+      <BackgroundFixed color={backgroundColor}>
         <Grid style={{ height: '100%' }}>
           <Row middle="xs" between="xs" style={{ height: '100%' }}>
             <Col style={{ display: 'flex', alignItems: 'center' }} middle="xs" xs={2} md={2}>
-              <Logo/>
+              <Logo />
             </Col>
             <Col style={{ display: 'flex', alignItems: 'center', justifyContent: 'flex-end' }} xs={8} md={8}>
-              <NavBarMobile color={this.props.color}/>
-              <NavBarDesktop location={this.props.location} color={this.props.color}/>
+              <NavBarMobile color={color} />
+              <NavBarDesktop location={location} color={color} />
             </Col>
           </Row>
         </Grid>

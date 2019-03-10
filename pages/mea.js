@@ -37,7 +37,7 @@ export class MEA extends React.PureComponent {
         </Head>
         <GlobalStyle />
         <div>
-          <Menu navigate={this.navigate} color={'#828282'} />
+          <Menu navigate={this.navigate} color="#828282" />
           <Hero />
           <FirstSection />
           <Divisor

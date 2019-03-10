@@ -11,20 +11,18 @@ const Img = styled.img`
   }
 `;
 
-class Logo extends React.PureComponent {
-  render() {
-    return (
-        <Anime
-          opacity={[0, 1]}
-          easing="easeOutExpo"
-          duration={4000}
-          delay={(el, i) => 1000 + 100 * i}
-          key={2222}
-        >
-          <Img src="/static/logo.png" />
-        </Anime>
-    );
-  }
+function Logo() {
+  return (
+    <Anime
+      opacity={[0, 1]}
+      easing="easeOutExpo"
+      duration={4000}
+      delay={(el, i) => 1000 + 100 * i}
+      key={2222 + Date.now()}
+    >
+      <Img src="/static/logo.png" />
+    </Anime>
+  );
 }
 
 export default withRouter(Logo);

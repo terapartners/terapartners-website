@@ -4,12 +4,13 @@ import Column from './Column';
 
 export default function ColumnComponent(props) {
   const {
-    contents, columns, srcs, overlaySrcs, names, surnames,
+    data,
   } = props;
+  const columns = data.length;
   return (
     <Grid>
       <Row style={{ maxWidth: '960px', margin: 'auto', marginTop: '70px' }} xs={12}>
-        {contents.map((c, idx) => (
+        {data.map(datum => (
           <Col
             style={{
               padding: '0', marginBottom: '10px', display: 'flex', alignItems: 'baseline', justifyContent: 'flex-start',
@@ -17,16 +18,16 @@ export default function ColumnComponent(props) {
             xs={12}
             md={12}
             lg={12 / columns}
-            key={names ? names[idx] : idx}
+            key={data.src || datum.name || datum.content}
           >
             <Column
               height={960 / columns - 10}
               width={960 / columns - 10}
-              src={srcs ? srcs[idx] : ''}
-              overlaySrc={overlaySrcs ? overlaySrcs[idx] : ''}
-              name={names ? names[idx] : ''}
-              surname={surnames ? surnames[idx] : ''}
-              content={c}
+              src={datum.src || ''}
+              overlaySrc={datum.overlaySrc || ''}
+              name={datum.name || ''}
+              surname={datum.surname || ''}
+              content={datum.content}
             />
           </Col>
         ))}

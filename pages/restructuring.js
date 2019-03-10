@@ -4,7 +4,7 @@ import { createGlobalStyle } from 'styled-components';
 
 import Hero from '../components/Restructuring/Hero';
 import FirstSection from '../components/Restructuring/FirstSection';
-import SecondSection from '../components/Restructuring/SecondSection';
+// import SecondSection from '../components/Restructuring/SecondSection';
 
 import Divisor from '../components/Divisor';
 import Footer from '../components/Footer';
@@ -36,8 +36,8 @@ export class Restructuring extends React.PureComponent {
         </Head>
         <GlobalStyle />
         <div>
-          <Menu navigate={this.navigate} color={'#333'} />
-          <Hero/>
+          <Menu navigate={this.navigate} color="#333" />
+          <Hero />
           <FirstSection />
           <Divisor
             parallaxHeight="600px"
@@ -45,7 +45,7 @@ export class Restructuring extends React.PureComponent {
             marginTop="500px"
             src="/static/dividor3.jpg"
           />
-          <SecondSection />
+          {/* <SecondSection /> */}
           <Footer />
           <div />
         </div>

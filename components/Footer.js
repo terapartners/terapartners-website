@@ -103,7 +103,7 @@ export default class Footer extends React.Component {
               <span>Top</span>
             </Icon>
           </Circle>
-          <CircleShadow/>
+          <CircleShadow />
           <Grid>
             <Row style={{ paddingTop: '70px', marginBottom: '20px' }}>
               <Col style={{
